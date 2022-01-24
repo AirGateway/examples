@@ -1,0 +1,198 @@
+{
+	"flights": [
+		{
+			"arrival": {
+				"airportCode": "LHR",
+				"airportName": "Heathrow (London) Airport",
+				"countryID": "",
+				"date": "2021-09-10",
+				"parentLocation": "",
+				"terminalName": "5",
+				"time": "15:25"
+			},
+			"departure": {
+				"airportCode": "FRA",
+				"airportName": "Frankfurt Airport",
+				"countryID": "",
+				"date": "2021-09-10",
+				"parentLocation": "",
+				"terminalName": "2",
+				"time": "14:35"
+			},
+			"duration": "",
+			"key": "BA0905-FRA-LHR-2021-09-10",
+			"segments": [
+				{
+					"ODRef": "OD1",
+					"detail": {
+						"classOfService": {
+							"cabinDesignator": "ECONOMY",
+							"code": "O",
+							"disclosureRefs": [
+								"PCR_1"
+							],
+							"fare": {
+								"basisCode": "",
+								"cabin": "5",
+								"code": "",
+								"marketingName": "Euro Traveller",
+								"priceClassName": "Basic",
+								"standardName": "Light",
+								"type": ""
+							},
+							"fareRules": [
+								{
+									"cancel": "",
+									"change": "For Fee",
+									"passengerRef": "T2",
+									"passengerType": "ADT",
+									"penalties": [
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": ""
+												}
+											],
+											"description": "",
+											"type": "EXCHANGE"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": ""
+												}
+											],
+											"description": "",
+											"type": "EXCHANGE"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": ""
+												}
+											],
+											"description": "",
+											"type": "EXCHANGE"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": ""
+												}
+											],
+											"description": "",
+											"type": "CANCEL"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": ""
+												}
+											],
+											"description": "",
+											"type": "CANCEL"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": ""
+												}
+											],
+											"description": "",
+											"type": "CANCEL"
+										}
+									]
+								}
+							],
+							"generalClassCode": "",
+							"refs": ""
+						},
+						"duration": "PT1H50M",
+						"seatsLeft": "",
+						"segmentType": "HK",
+						"stopQuantity": "0"
+					},
+					"equipment": {
+						"aircraftCode": "320",
+						"name": "Airbus A320 jet"
+					},
+					"flightNumber": "BA0905",
+					"marketingCarrier": {
+						"airlineID": "BA",
+						"flightNumber": "0905",
+						"name": "British Airways"
+					},
+					"operatingCarrier": {
+						"airlineID": "BA",
+						"flightNumber": "0905",
+						"name": "British Airways"
+					},
+					"originDestination": {
+						"arrival": {
+							"airportCode": "LHR",
+							"airportName": "Heathrow (London) Airport",
+							"countryID": "",
+							"date": "2021-09-10",
+							"parentLocation": "",
+							"terminalName": "5",
+							"time": "15:25"
+						},
+						"departure": {
+							"airportCode": "FRA",
+							"airportName": "Frankfurt Airport",
+							"countryID": "",
+							"date": "2021-09-10",
+							"parentLocation": "",
+							"terminalName": "2",
+							"time": "14:35"
+						}
+					},
+					"segmentID": "BA0905-FRA-LHR-2021-09-10"
+				}
+			]
+		}
+	],
+	"owner": "BA",
+	"price": {
+		"consumer": {
+			"base": 9,
+			"currency": "EUR",
+			"tax": {
+				"total": 54.57
+			},
+			"total": 63.57
+		},
+		"provider": {
+			"base": 9,
+			"currency": "EUR",
+			"tax": {
+				"total": 54.57
+			},
+			"total": 63.57
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"id": "BP-WCVWFEQXA6",
+	"payment": {
+		"cardCode": "CA",
+		"cardHolderEmail": "accept@accept.com",
+		"cardHolderName": "JOHN",
+		"cardHolderSurname": "DOE",
+		"cardHolderTitle": "MR",
+		"cardNumber": "****************",
+		"cardType": "CC",
+		"cashTitle": "MR",
+		"cityName": "MAD",
+		"countryCode": "ES",
+		"expiration": "0523",
+		"method": "card",
+		"phone": {
+			"areaCode": "",
+			"countryCode": "34",
+			"number": "646666621"
+		},
+		"postalCode": "28900",
+		"seriesCode": "***",
+		"stateProv": "28",
+		"street1": "Ibiza 21"
+	}
+}

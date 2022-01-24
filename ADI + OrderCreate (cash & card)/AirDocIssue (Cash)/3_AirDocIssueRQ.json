@@ -1,0 +1,12 @@
+{
+    "id": "AGW-HCK2CH8N2H",
+    "payment": {
+        "cardHolderTitle": "MR",
+        "cashEmail": "eloy@airgateway.com",
+        "cashName": "eloy",
+        "cashSurname": "airgateway",
+        "cashTitle": "MR",
+        "method": "cash",
+        "phone": "+34666123123"
+    }
+}

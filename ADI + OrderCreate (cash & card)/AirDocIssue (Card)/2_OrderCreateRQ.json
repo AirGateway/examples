@@ -1,0 +1,36 @@
+{
+	"corporateID": "",
+	"passengers": [
+		{
+			"data": {
+				"address": {
+					"cityName": "Saint-Petersburg",
+					"countryCode": "RU",
+					"postalCode": "197373",
+					"street": "Test"
+				},
+				"birthdate": "2001-09-17",
+				"email": "smith@airgateway.net",
+				"fqtvInfo": {
+					"account": {
+						"number": ""
+					},
+					"airlineID": "BA"
+				},
+				"gender": "Female",
+				"name": "Diamond",
+				"phone": "+34666123123",
+				"residenceCountryCode": "ES",
+				"surname": "Sonderling"
+			},
+			"document": {
+				"documentID": "115233245A",
+				"documentType": "PP",
+				"expirationDate": "2022-04-07"
+			},
+			"passengerType": "ADT",
+			"travelerReference": "ADT0"
+		}
+	],
+	"shoppingResponseID": "BL2SK16TFO6XE8DCWI9YDRK5IPE1HM5GRF37WL50L3VROMSN6R8RTE478SBM2N1C"
+}

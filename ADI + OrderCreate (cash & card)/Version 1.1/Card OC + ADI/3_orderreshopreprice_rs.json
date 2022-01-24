@@ -1,0 +1,110 @@
+{
+	"owner": "BA",
+	"priceChange": false,
+	"price": {
+		"totalPrice": 551.22,
+		"totalTaxes": 428.25,
+		"providerCurrency": "EUR",
+		"currency": "SEK",
+		"baseAmount": 122.97,
+		"providerBaseAmount": 12,
+		"providerTotalTaxes": 41.79,
+		"providerTotalPrice": 53.79
+	},
+	"flights": [
+		{
+			"flightKey": "BA0908-LHR-FRA-2022-01-29",
+			"departure": {
+				"airportCode": "LHR",
+				"time": "13:55",
+				"airportName": "Heathrow (London) Airport",
+				"terminalName": "5",
+				"date": "2022-01-29",
+				"countryID": "",
+				"parentLocation": ""
+			},
+			"arrival": {
+				"airportCode": "FRA",
+				"time": "16:40",
+				"airportName": "Frankfurt Airport",
+				"terminalName": "2",
+				"date": "2022-01-29",
+				"countryID": "",
+				"parentLocation": ""
+			},
+			"flightSegments": [
+				{
+					"ODRef": "OD1",
+					"equipment": {
+						"aircraftCode": "319",
+						"name": "Airbus A319 jet"
+					},
+					"flightDetail": {
+						"flightSegmentType": "HK",
+						"flightDuration": "PT1H45M",
+						"stopQuantity": "0",
+						"classOfService": {
+							"refs": "",
+							"code": "O",
+							"marketingName": "Basic",
+							"cabinDesignator": "ECONOMY",
+							"fareStandardName": "Light",
+							"fareCabin": "O",
+							"disclosureRefs": [
+								"PCR_1"
+							]
+						},
+						"fareMarketingName": "Basic",
+						"fareStandardName": "Light",
+						"fareCabin": "O"
+					},
+					"flightNumber": "BA0908",
+					"marketingCarrier": {
+						"airlineID": "BA",
+						"name": "British Airways",
+						"flightNumber": "0908"
+					},
+					"operatingCarrier": {
+						"airlineID": "BA",
+						"name": "British Airways",
+						"flightNumber": "0908",
+						"disclosures": [
+							{
+								"listKey": "",
+								"descriptions": [
+									{
+										"text": "BA"
+									}
+								],
+								"details": null
+							}
+						]
+					},
+					"originDestination": {
+						"departure": {
+							"airportCode": "LHR",
+							"time": "13:55",
+							"airportName": "Heathrow (London) Airport",
+							"terminalName": "5",
+							"date": "2022-01-29",
+							"countryID": "",
+							"parentLocation": ""
+						},
+						"arrival": {
+							"airportCode": "FRA",
+							"time": "16:40",
+							"airportName": "Frankfurt Airport",
+							"terminalName": "2",
+							"date": "2022-01-29",
+							"countryID": "",
+							"parentLocation": ""
+						}
+					},
+					"segmentID": "BA0908-LHR-FRA-2022-01-29"
+				}
+			]
+		}
+	],
+	"disclosures": [],
+	"cardSurcharges": {}
+}

@@ -1,0 +1,871 @@
+{
+	"allowedPaymentMethods": {
+		"agencyCard": true,
+		"agencyCash": true,
+		"card": true,
+		"none": true
+	},
+	"allowedRequests": {
+		"OrderCreateWithPayment": true,
+		"SeatAvailability": true,
+		"ServiceList": true
+	},
+	"createdAt": 1628152309,
+	"disclosures": [
+		{
+			"descriptions": [
+				{
+					"category": "SEAT",
+					"item": "CABINTYPE",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "Cabina: Turista"
+				},
+				{
+					"category": "BAGGAGE_CARRYON",
+					"item": "BAGGAGE_CARRYON",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"properties": [
+						{
+							"UOM": "cm",
+							"type": "Height",
+							"value": "56"
+						},
+						{
+							"UOM": "cm",
+							"type": "Length",
+							"value": "40"
+						},
+						{
+							"UOM": "cm",
+							"type": "Widht",
+							"value": "25"
+						}
+					],
+					"text": "Equipaje de mano: 1 bulto (56x40x25cm)",
+					"units": "1"
+				},
+				{
+					"category": "BAGGAGE_CHECKED",
+					"item": "BAGGAGE_CHECKED",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "Equipaje en bodega: 0 piezas.",
+					"units": "0"
+				},
+				{
+					"category": "MEALS",
+					"item": "DRINKS_FOOD",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "Comida: Incluido, excepto Level"
+				},
+				{
+					"category": "SEAT",
+					"item": "SEAT_RESERVATION",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "Selección de asiento: De pago."
+				},
+				{
+					"category": "SEAT",
+					"item": "SEAT_SPACE",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "Selección de asiento XL: De pago"
+				},
+				{
+					"category": "SERVICE",
+					"item": "WI-FI",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "WiFi: De pago"
+				},
+				{
+					"category": "EXCHANGE",
+					"item": "CHANGES",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "Cambios: Permitidos en cualquier momento con una penalización de 180€, excepto en caso de no presentarse al vuelo (No-Show), que no permite cambio"
+				},
+				{
+					"category": "EXCHANGE",
+					"item": "REFUND",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "Reembolso (por sentido): No permitido"
+				},
+				{
+					"category": "PRIORITY",
+					"item": "CHECKIN",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "Mostrador check-in exclusivo: No"
+				},
+				{
+					"category": "LOUNGE",
+					"item": "LOUNGE",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "Acceso a salas VIP: No"
+				},
+				{
+					"category": "SERVICE",
+					"item": "TRACKING",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "Fast Track: No"
+				},
+				{
+					"category": "PRIORITY",
+					"item": "HIGH_PRIORITY",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "Entrega prioritaria equipaje: No"
+				},
+				{
+					"category": "MILES",
+					"item": "MILES",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "AVIOS: Si"
+				},
+				{
+					"category": "PRIORITY",
+					"item": "HIGH_PRIORITY",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "Prioridad de Embarque: No"
+				},
+				{
+					"category": "PRIORITY",
+					"item": "LOW_PRIORITY",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "Tarjeta de embarque anticipada: No incluido"
+				}
+			],
+			"listKey": "EUAJNB"
+		}
+	],
+	"flights": [
+		{
+			"arrival": {
+				"airportCode": "JFK",
+				"airportName": "New York John F Kennedy International",
+				"countryID": "",
+				"date": "2021-09-02",
+				"parentLocation": "",
+				"terminalName": "8",
+				"time": "14:30"
+			},
+			"baggageAllowance": {
+				"carryOn": [
+					{
+						"chooseType": "one",
+						"options": [
+							{
+								"quantity": 2,
+								"text": "2 Carry on baggages"
+							}
+						],
+						"passengerRefs": "ADT0"
+					}
+				],
+				"checked": [
+					{
+						"chooseType": "one",
+						"options": [
+							{
+								"text": "Checked baggage not included"
+							}
+						],
+						"passengerRefs": "ADT0"
+					}
+				]
+			},
+			"departure": {
+				"airportCode": "CDG",
+				"airportName": "Paris Charles de Gaulle",
+				"countryID": "",
+				"date": "2021-09-02",
+				"parentLocation": "",
+				"terminalName": "2E",
+				"time": "12:15"
+			},
+			"duration": "PT08H15M",
+			"key": "CDGJFK20210902121500",
+			"segments": [
+				{
+					"ODRef": "OD1",
+					"detail": {
+						"classOfService": {
+							"cabinDesignator": "ECONOMY",
+							"code": "O",
+							"fare": {
+								"basisCode": "OKN8T8B4",
+								"cabin": "5",
+								"code": "70J",
+								"marketingName": "Básica",
+								"priceClassName": "Básica",
+								"standardName": "Light",
+								"type": "Published"
+							},
+							"fareRules": [
+								{
+									"cancel": "Not Allowed",
+									"change": "For Fee",
+									"passengerRef": "ADT0",
+									"passengerType": "ADT",
+									"penalties": [
+										{
+											"amounts": [
+												{
+													"amount": 180,
+													"currency": "EUR",
+													"providerAmount": 180,
+													"providerCurrency": "EUR",
+													"remark": ""
+												}
+											],
+											"description": "",
+											"type": "EXCHANGE"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 180,
+													"currency": "EUR",
+													"providerAmount": 180,
+													"providerCurrency": "EUR",
+													"remark": ""
+												}
+											],
+											"description": "",
+											"type": "EXCHANGE"
+										},
+										{
+											"description": "CANCELLATIONS ANY TIME TICKET IS NON REFUNDABLE. NOTE   FARE COMPONENT IS NON REFUNDABLE; WAIVED FOR DEATH OF A PASSENGER AND PASSENGERS FAMILY MEMBERS UP TO 1ST DEGREE RELATIONS OR FOR PASSENGER/S HOSPITAL ADMISSION; WHEN COMBINING NON REFUNDABLE FARES WITH REFUNDABLE FARES 1. THE AMOUNT PAID ON EACH REFUNDABLE FARE COMPONENT IS REFUNDED LESS ANY APPLICABLE PENALTI. 2. THE AMOUNT PAID ON EACH NON REFUNDABLE FARE COMPONENT WILL NOT BE REFUNDED.; REFUND OF UNUSED TAXES FEES AND CHARGES PAID TO THIRD PARTIES PERMITTED. ASSOCIATED CARRIER IMPOSED CHARGES WILL NOT BE REFUNDED.; ANY NON REFUNDABLE AMOUNT FROM A PREVIOUS TICKET REMAINS NON REFUNDABLE FOLLOWING A CHANGE.; RESERVATION CANCELLED PRIOR TO TICKETED DEPARTURE TIME RETAINS TICKET VALUE FOR FUTURE TRAVEL WITHIN THE TICKET VALIDITY AND CHANGE FEE APPLIES. IF THE RESERVATION IS NOT CANCELLED PRIOR TO TICKETED DEPARTURE TIME REBOOKING IS NOT PERMITTED AND TICKET HAS NO VALUE AND ONLY UNUSED TAXES WILL BE REFUNDED. CHANGES ANY TIME CHARGE EUR 180.00. NOTE   CHARGE APPLIES PER TRANSACTION   PER PERSON TO ALL PASSENGER TYPES.; A CHANGE IS A DATE/FLIGHT/ROUTING/BOOKING CODE CHANGE. NEW RESERVATION AND REISSUE/REVALIDATION MUST BE MADE ON THE SAME DAY.; THE CHANGE FEE APPLIES PER TRANSACTION PER PERSON FOR ADULT AND CHILD. INFANT DISCOUNTS APPLY.; REISSUE MUST BE MADE THE SAME DAY AS CHANGE OF RESERVATION BUT NO LATER THAN SCHEDULED DEPARTURE TIME OF FLIGHT BEING CHANGED. OTHERWISE THE TICKET WILL ONLY BE VALID FOR REFUND IF APPLICABLE.; WHEN MORE THAN ONE FARE COMPONENT IS CHANGED THE HIGHEST PENALTY OF ALL CHANGED FARE COMPONENTS WITHIN THE JOURNEY APPLIES.; REPRICING CONDITIONS; A. BEFORE DEPARTURE OF JOURNEY WHEN THE FIRST FARE COMPONENT IS CHANGED THE ITINERARY MUST BE RE PRICED USING CURRENT FARES IN EFFECT ON THE DATE THE TICKET IS REISSUED. B. BEFORE DEPARTURE OF JOURNEY WHEN CHANGES ARE TO BOOKING CODE ONLY IN THE FIRST FARE COMPONENT AND RESULT IN A HIGHER FARE THE ITINERARY MUST BE RE PRICED USING HISTORICAL FARES IN EFFECT ON THE PREVIOUS TICKETING DATE OR USING CURRENT FARES IN EFFECT ON THE DATE THE TICKET IS REISSUED   WHICHEVER IS LOWER. C. BEFORE DEPARTURE OF JOURNEY WHEN THERE ARE NO CHANGES TO THE FIRST FARE COMPONENT BUT OTHER FARE COMPONENTS ARE CHANGED THE ITINERARY MUST BE RE PRICED USING HISTORICAL FARES IN EFFECT ON THE PREVIOUS TICKETING DATE OR USING CURRENT FARES IN EFFECT ON THE DATE THE TICKET IS REISSUED   WHICHEVER IS LOWER. D. AFTER DEPARTURE OF JOURNEY THE ITINERARY MUST BE RE PRICED USING HISTORICAL FARES IN EFFECT ON THE PREVIOUS TICKETING DATE.; 1. IF SAME BOOKING CLASS IS USED NEW TICKET MAY BE LOWER   EQUEAL OR HIGHER THAN PREVIOUS AND MUST COMPLY WITH ALL PROVISIONS OF THE NEW FARE BEING APPLIED. 2. IF A DIFFERENT BOOKING CLASS IS USED NEW TICKET MAY BE EQUAL OR HIGHER THAN PREVIOUS AND MUST COMPLY WITH ALL PROVISIONS OF THE NEW FARE BEING APPLIED.; WHEN THE ITINERARY RESULTS IN A HIGHER FARE THE DIFFERENCE WILL BE COLLECTED. ANY APPLICABLE CHANGE FEE STILL APPLIES.; WHEN THE NEW ITINERARY RESULTS IN A LOWER FARE THE CHANGE FEE APPLIES AND NO CREDIT OF THE RESIDUAL AMOUNT WILL BE MADE.; TICKET IS NOT TRANSFERABLE TO ANOTHER PERSON. NO SHOW NOT PERMITTED NO SHOWS FOR A FLIGHT ARE CONSIDERED A CANCELLATION AFTER DEPARTURE AND CHANGES ARE NOT PERMITTED",
+											"type": ""
+										}
+									]
+								}
+							],
+							"refs": ""
+						},
+						"duration": "PT8H15M",
+						"segmentType": "HK",
+						"stopQuantity": "0"
+					},
+					"equipment": {
+						"aircraftCode": "772",
+						"name": "Boeing 777-200/200ER Passenger"
+					},
+					"flightNumber": "AA0045",
+					"marketingCarrier": {
+						"airlineID": "IB",
+						"flightNumber": "4176",
+						"name": "Iberia"
+					},
+					"operatingCarrier": {
+						"airlineID": "AA",
+						"flightNumber": "0045",
+						"name": "American Airlines"
+					},
+					"originDestination": {
+						"arrival": {
+							"airportCode": "JFK",
+							"airportName": "New York John F Kennedy International",
+							"countryID": "",
+							"date": "2021-09-02",
+							"parentLocation": "",
+							"terminalName": "8",
+							"time": "14:30"
+						},
+						"departure": {
+							"airportCode": "CDG",
+							"airportName": "Paris Charles de Gaulle",
+							"countryID": "",
+							"date": "2021-09-02",
+							"parentLocation": "",
+							"terminalName": "2E",
+							"time": "12:15"
+						}
+					},
+					"segmentID": "IB417620210902"
+				}
+			]
+		},
+		{
+			"arrival": {
+				"airportCode": "CDG",
+				"airportName": "Paris Charles de Gaulle",
+				"countryID": "",
+				"date": "2021-09-10",
+				"parentLocation": "",
+				"terminalName": "2E",
+				"time": "06:55"
+			},
+			"baggageAllowance": {
+				"carryOn": [
+					{
+						"chooseType": "one",
+						"options": [
+							{
+								"quantity": 2,
+								"text": "2 Carry on baggages"
+							}
+						],
+						"passengerRefs": "ADT0"
+					}
+				],
+				"checked": [
+					{
+						"chooseType": "one",
+						"options": [
+							{
+								"text": "Checked baggage not included"
+							}
+						],
+						"passengerRefs": "ADT0"
+					}
+				]
+			},
+			"departure": {
+				"airportCode": "JFK",
+				"airportName": "New York John F Kennedy International",
+				"countryID": "",
+				"date": "2021-09-09",
+				"parentLocation": "",
+				"terminalName": "8",
+				"time": "17:40"
+			},
+			"duration": "PT07H15M",
+			"key": "JFKCDG20210909174000",
+			"segments": [
+				{
+					"ODRef": "OD2",
+					"detail": {
+						"classOfService": {
+							"cabinDesignator": "ECONOMY",
+							"code": "O",
+							"fare": {
+								"basisCode": "OKN8T8B4",
+								"cabin": "5",
+								"code": "70J",
+								"marketingName": "Básica",
+								"priceClassName": "Básica",
+								"standardName": "Light",
+								"type": "Published"
+							},
+							"fareRules": [
+								{
+									"cancel": "Not Allowed",
+									"change": "For Fee",
+									"passengerRef": "ADT0",
+									"passengerType": "ADT",
+									"penalties": [
+										{
+											"amounts": [
+												{
+													"amount": 180,
+													"currency": "EUR",
+													"providerAmount": 180,
+													"providerCurrency": "EUR",
+													"remark": ""
+												}
+											],
+											"description": "",
+											"type": "EXCHANGE"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 180,
+													"currency": "EUR",
+													"providerAmount": 180,
+													"providerCurrency": "EUR",
+													"remark": ""
+												}
+											],
+											"description": "",
+											"type": "EXCHANGE"
+										},
+										{
+											"description": "CANCELLATIONS ANY TIME TICKET IS NON REFUNDABLE. NOTE   FARE COMPONENT IS NON REFUNDABLE; WAIVED FOR DEATH OF A PASSENGER AND PASSENGERS FAMILY MEMBERS UP TO 1ST DEGREE RELATIONS OR FOR PASSENGER/S HOSPITAL ADMISSION; WHEN COMBINING NON REFUNDABLE FARES WITH REFUNDABLE FARES 1. THE AMOUNT PAID ON EACH REFUNDABLE FARE COMPONENT IS REFUNDED LESS ANY APPLICABLE PENALTI. 2. THE AMOUNT PAID ON EACH NON REFUNDABLE FARE COMPONENT WILL NOT BE REFUNDED.; REFUND OF UNUSED TAXES FEES AND CHARGES PAID TO THIRD PARTIES PERMITTED. ASSOCIATED CARRIER IMPOSED CHARGES WILL NOT BE REFUNDED.; ANY NON REFUNDABLE AMOUNT FROM A PREVIOUS TICKET REMAINS NON REFUNDABLE FOLLOWING A CHANGE.; RESERVATION CANCELLED PRIOR TO TICKETED DEPARTURE TIME RETAINS TICKET VALUE FOR FUTURE TRAVEL WITHIN THE TICKET VALIDITY AND CHANGE FEE APPLIES. IF THE RESERVATION IS NOT CANCELLED PRIOR TO TICKETED DEPARTURE TIME REBOOKING IS NOT PERMITTED AND TICKET HAS NO VALUE AND ONLY UNUSED TAXES WILL BE REFUNDED. CHANGES ANY TIME CHARGE EUR 180.00. NOTE   CHARGE APPLIES PER TRANSACTION   PER PERSON TO ALL PASSENGER TYPES.; A CHANGE IS A DATE/FLIGHT/ROUTING/BOOKING CODE CHANGE. NEW RESERVATION AND REISSUE/REVALIDATION MUST BE MADE ON THE SAME DAY.; THE CHANGE FEE APPLIES PER TRANSACTION PER PERSON FOR ADULT AND CHILD. INFANT DISCOUNTS APPLY.; REISSUE MUST BE MADE THE SAME DAY AS CHANGE OF RESERVATION BUT NO LATER THAN SCHEDULED DEPARTURE TIME OF FLIGHT BEING CHANGED. OTHERWISE THE TICKET WILL ONLY BE VALID FOR REFUND IF APPLICABLE.; WHEN MORE THAN ONE FARE COMPONENT IS CHANGED THE HIGHEST PENALTY OF ALL CHANGED FARE COMPONENTS WITHIN THE JOURNEY APPLIES.; REPRICING CONDITIONS; A. BEFORE DEPARTURE OF JOURNEY WHEN THE FIRST FARE COMPONENT IS CHANGED THE ITINERARY MUST BE RE PRICED USING CURRENT FARES IN EFFECT ON THE DATE THE TICKET IS REISSUED. B. BEFORE DEPARTURE OF JOURNEY WHEN CHANGES ARE TO BOOKING CODE ONLY IN THE FIRST FARE COMPONENT AND RESULT IN A HIGHER FARE THE ITINERARY MUST BE RE PRICED USING HISTORICAL FARES IN EFFECT ON THE PREVIOUS TICKETING DATE OR USING CURRENT FARES IN EFFECT ON THE DATE THE TICKET IS REISSUED   WHICHEVER IS LOWER. C. BEFORE DEPARTURE OF JOURNEY WHEN THERE ARE NO CHANGES TO THE FIRST FARE COMPONENT BUT OTHER FARE COMPONENTS ARE CHANGED THE ITINERARY MUST BE RE PRICED USING HISTORICAL FARES IN EFFECT ON THE PREVIOUS TICKETING DATE OR USING CURRENT FARES IN EFFECT ON THE DATE THE TICKET IS REISSUED   WHICHEVER IS LOWER. D. AFTER DEPARTURE OF JOURNEY THE ITINERARY MUST BE RE PRICED USING HISTORICAL FARES IN EFFECT ON THE PREVIOUS TICKETING DATE.; 1. IF SAME BOOKING CLASS IS USED NEW TICKET MAY BE LOWER   EQUEAL OR HIGHER THAN PREVIOUS AND MUST COMPLY WITH ALL PROVISIONS OF THE NEW FARE BEING APPLIED. 2. IF A DIFFERENT BOOKING CLASS IS USED NEW TICKET MAY BE EQUAL OR HIGHER THAN PREVIOUS AND MUST COMPLY WITH ALL PROVISIONS OF THE NEW FARE BEING APPLIED.; WHEN THE ITINERARY RESULTS IN A HIGHER FARE THE DIFFERENCE WILL BE COLLECTED. ANY APPLICABLE CHANGE FEE STILL APPLIES.; WHEN THE NEW ITINERARY RESULTS IN A LOWER FARE THE CHANGE FEE APPLIES AND NO CREDIT OF THE RESIDUAL AMOUNT WILL BE MADE.; TICKET IS NOT TRANSFERABLE TO ANOTHER PERSON. NO SHOW NOT PERMITTED NO SHOWS FOR A FLIGHT ARE CONSIDERED A CANCELLATION AFTER DEPARTURE AND CHANGES ARE NOT PERMITTED",
+											"type": ""
+										}
+									]
+								}
+							],
+							"refs": ""
+						},
+						"duration": "PT7H15M",
+						"segmentType": "HK",
+						"stopQuantity": "0"
+					},
+					"equipment": {
+						"aircraftCode": "772",
+						"name": "Boeing 777-200/200ER Passenger"
+					},
+					"flightNumber": "AA0044",
+					"marketingCarrier": {
+						"airlineID": "IB",
+						"flightNumber": "4158",
+						"name": "Iberia"
+					},
+					"operatingCarrier": {
+						"airlineID": "AA",
+						"flightNumber": "0044",
+						"name": "American Airlines"
+					},
+					"originDestination": {
+						"arrival": {
+							"airportCode": "CDG",
+							"airportName": "Paris Charles de Gaulle",
+							"countryID": "",
+							"date": "2021-09-10",
+							"parentLocation": "",
+							"terminalName": "2E",
+							"time": "06:55"
+						},
+						"departure": {
+							"airportCode": "JFK",
+							"airportName": "New York John F Kennedy International",
+							"countryID": "",
+							"date": "2021-09-09",
+							"parentLocation": "",
+							"terminalName": "8",
+							"time": "17:40"
+						}
+					},
+					"segmentID": "IB415820210909"
+				}
+			]
+		}
+	],
+	"offerExpiration": "2021-08-05T09:22:05",
+	"offerID": "OFFER-SUI6UlQ6Q0RHOkpGSzoyMDIxLTA5LTAyOjIwMjEtMDktMDk6MzgwLjE4OjIwMjEwODA1VDEwMzE0NjoxYmZhOTRkYTM2ODA0MTA1YWE4MWMxYWY3ZTA4OTlhNzpRTVZaMjhUMEFYUlRFRFBNU0lXUEVWUUU5SDc3SktPU1QxNTdYUTJaUUlBVTU5TU85NFZXWkJFMkpDSkdQS0RJ",
+	"owner": "IB",
+	"passengers": [
+		{
+			"infantReference": "",
+			"passengerType": "ADT",
+			"travelerReference": "ADT0"
+		}
+	],
+	"paymentTimeLimit": "2021-08-05T10:31:51Z",
+	"price": {
+		"consumer": {
+			"base": 43,
+			"breakdown": [
+				{
+					"base": 43,
+					"offerItemID": "IBd067dde9ae1f4a819b790eeefde48020OC_01",
+					"passengerRefs": "ADT0",
+					"passengerType": "ADT",
+					"tax": {
+						"breakdown": [
+							{
+								"code": "FR",
+								"currency": "EUR",
+								"description": "France Civil Aviation Tax Domestic And International",
+								"total": 8.37
+							},
+							{
+								"code": "FR",
+								"currency": "EUR",
+								"description": "France Airport Tax Domestic And International",
+								"total": 11.7
+							},
+							{
+								"code": "O4",
+								"currency": "EUR",
+								"description": "France Air Passenger Solidarity Tax Surplus",
+								"total": 3
+							},
+							{
+								"code": "XA",
+								"currency": "EUR",
+								"description": "United States APHIS Passenger Fee Passengers",
+								"total": 3.34
+							},
+							{
+								"code": "YC",
+								"currency": "EUR",
+								"description": "United States Customs User Fee",
+								"total": 5.05
+							},
+							{
+								"code": "QX",
+								"currency": "EUR",
+								"description": "France Passenger Service Charge International",
+								"total": 29.62
+							},
+							{
+								"code": "IZ",
+								"currency": "EUR",
+								"description": "France Air Passenger Solidarity Tax",
+								"total": 4.51
+							},
+							{
+								"code": "XY",
+								"currency": "EUR",
+								"description": "United States Immigration User Fee",
+								"total": 5.9
+							},
+							{
+								"code": "YQ",
+								"currency": "EUR",
+								"description": "IB YQ surcharge",
+								"total": 112.5
+							},
+							{
+								"code": "US",
+								"currency": "EUR",
+								"description": "US International Arrival Tax",
+								"total": 16.09
+							},
+							{
+								"code": "AY",
+								"currency": "EUR",
+								"description": "United States Passenger Civil Aviation Security Service Fee",
+								"total": 4.72
+							},
+							{
+								"code": "YQ",
+								"currency": "EUR",
+								"description": "IB YQ surcharge",
+								"total": 112.5
+							},
+							{
+								"code": "US",
+								"currency": "EUR",
+								"description": "US International Departure Tax",
+								"total": 16.09
+							},
+							{
+								"code": "XF",
+								"currency": "EUR",
+								"description": "US Passenger Facility Charge",
+								"total": 3.79
+							}
+						],
+						"total": 337.18
+					}
+				}
+			],
+			"currency": "EUR",
+			"tax": {
+				"breakdown": [
+					{
+						"code": "FR",
+						"currency": "EUR",
+						"description": "France Civil Aviation Tax Domestic And International",
+						"total": 20.07
+					},
+					{
+						"code": "O4",
+						"currency": "EUR",
+						"description": "France Air Passenger Solidarity Tax Surplus",
+						"total": 3
+					},
+					{
+						"code": "XA",
+						"currency": "EUR",
+						"description": "United States APHIS Passenger Fee Passengers",
+						"total": 3.34
+					},
+					{
+						"code": "YC",
+						"currency": "EUR",
+						"description": "United States Customs User Fee",
+						"total": 5.05
+					},
+					{
+						"code": "QX",
+						"currency": "EUR",
+						"description": "France Passenger Service Charge International",
+						"total": 29.62
+					},
+					{
+						"code": "IZ",
+						"currency": "EUR",
+						"description": "France Air Passenger Solidarity Tax",
+						"total": 4.51
+					},
+					{
+						"code": "XY",
+						"currency": "EUR",
+						"description": "United States Immigration User Fee",
+						"total": 5.9
+					},
+					{
+						"code": "YQ",
+						"currency": "EUR",
+						"description": "IB YQ surcharge",
+						"total": 225
+					},
+					{
+						"code": "US",
+						"currency": "EUR",
+						"description": "US International Arrival Tax",
+						"total": 32.18
+					},
+					{
+						"code": "AY",
+						"currency": "EUR",
+						"description": "United States Passenger Civil Aviation Security Service Fee",
+						"total": 4.72
+					},
+					{
+						"code": "XF",
+						"currency": "EUR",
+						"description": "US Passenger Facility Charge",
+						"total": 3.79
+					}
+				],
+				"total": 337.18
+			},
+			"total": 380.18
+		},
+		"provider": {
+			"base": 43,
+			"breakdown": [
+				{
+					"base": 43,
+					"offerItemID": "IBd067dde9ae1f4a819b790eeefde48020OC_01",
+					"passengerRefs": "ADT0",
+					"passengerType": "ADT",
+					"tax": {
+						"breakdown": [
+							{
+								"code": "FR",
+								"currency": "EUR",
+								"description": "France Civil Aviation Tax Domestic And International",
+								"total": 8.37
+							},
+							{
+								"code": "FR",
+								"currency": "EUR",
+								"description": "France Airport Tax Domestic And International",
+								"total": 11.7
+							},
+							{
+								"code": "O4",
+								"currency": "EUR",
+								"description": "France Air Passenger Solidarity Tax Surplus",
+								"total": 3
+							},
+							{
+								"code": "XA",
+								"currency": "EUR",
+								"description": "United States APHIS Passenger Fee Passengers",
+								"total": 3.34
+							},
+							{
+								"code": "YC",
+								"currency": "EUR",
+								"description": "United States Customs User Fee",
+								"total": 5.05
+							},
+							{
+								"code": "QX",
+								"currency": "EUR",
+								"description": "France Passenger Service Charge International",
+								"total": 29.62
+							},
+							{
+								"code": "IZ",
+								"currency": "EUR",
+								"description": "France Air Passenger Solidarity Tax",
+								"total": 4.51
+							},
+							{
+								"code": "XY",
+								"currency": "EUR",
+								"description": "United States Immigration User Fee",
+								"total": 5.9
+							},
+							{
+								"code": "YQ",
+								"currency": "EUR",
+								"description": "IB YQ surcharge",
+								"total": 112.5
+							},
+							{
+								"code": "US",
+								"currency": "EUR",
+								"description": "US International Arrival Tax",
+								"total": 16.09
+							},
+							{
+								"code": "AY",
+								"currency": "EUR",
+								"description": "United States Passenger Civil Aviation Security Service Fee",
+								"total": 4.72
+							},
+							{
+								"code": "YQ",
+								"currency": "EUR",
+								"description": "IB YQ surcharge",
+								"total": 112.5
+							},
+							{
+								"code": "US",
+								"currency": "EUR",
+								"description": "US International Departure Tax",
+								"total": 16.09
+							},
+							{
+								"code": "XF",
+								"currency": "EUR",
+								"description": "US Passenger Facility Charge",
+								"total": 3.79
+							}
+						],
+						"total": 337.18
+					}
+				}
+			],
+			"currency": "EUR",
+			"tax": {
+				"breakdown": [
+					{
+						"code": "FR",
+						"currency": "EUR",
+						"description": "France Civil Aviation Tax Domestic And International",
+						"total": 20.07
+					},
+					{
+						"code": "O4",
+						"currency": "EUR",
+						"description": "France Air Passenger Solidarity Tax Surplus",
+						"total": 3
+					},
+					{
+						"code": "XA",
+						"currency": "EUR",
+						"description": "United States APHIS Passenger Fee Passengers",
+						"total": 3.34
+					},
+					{
+						"code": "YC",
+						"currency": "EUR",
+						"description": "United States Customs User Fee",
+						"total": 5.05
+					},
+					{
+						"code": "QX",
+						"currency": "EUR",
+						"description": "France Passenger Service Charge International",
+						"total": 29.62
+					},
+					{
+						"code": "IZ",
+						"currency": "EUR",
+						"description": "France Air Passenger Solidarity Tax",
+						"total": 4.51
+					},
+					{
+						"code": "XY",
+						"currency": "EUR",
+						"description": "United States Immigration User Fee",
+						"total": 5.9
+					},
+					{
+						"code": "YQ",
+						"currency": "EUR",
+						"description": "IB YQ surcharge",
+						"total": 225
+					},
+					{
+						"code": "US",
+						"currency": "EUR",
+						"description": "US International Arrival Tax",
+						"total": 32.18
+					},
+					{
+						"code": "AY",
+						"currency": "EUR",
+						"description": "United States Passenger Civil Aviation Security Service Fee",
+						"total": 4.72
+					},
+					{
+						"code": "XF",
+						"currency": "EUR",
+						"description": "US Passenger Facility Charge",
+						"total": 3.79
+					}
+				],
+				"total": 337.18
+			},
+			"total": 380.18
+		}
+	},
+	"shoppingResponseID": "OZKHMY1SQO406C6UIKP8IULTZ6C4P8DQWXJEDXZ54IQQH2Y8D4DEOZS81URNA6FP",
+	"specialServices": [
+		{
+			"bookingInstructions": {
+				"mandatoryText": "mandatory",
+				"pattern": "",
+				"placeHolder": "Pastor alemán. 15Kg",
+				"type": "text"
+			},
+			"code": "SVAN",
+			"desc": "Animal de asistencia: Servicio Animal que viaja en la cabina con pasajeros ciegos, sordos, discapacitados o instructores certificados. Especificar la raza y el peso del animal",
+			"passengerType": "ADT"
+		},
+		{
+			"bookingInstructions": {
+				"mandatoryText": "not_allowed",
+				"pattern": "",
+				"placeHolder": "",
+				"type": ""
+			},
+			"code": "DEAF",
+			"desc": "Pasajero sordo: Solicite servicio de animales si viaja con uno",
+			"passengerType": "ADT"
+		},
+		{
+			"bookingInstructions": {
+				"mandatoryText": "mandatory",
+				"pattern": "",
+				"placeHolder": "Pastor alemán. 15Kg",
+				"type": "text"
+			},
+			"code": "ESAN",
+			"desc": "Animal de soporte emocional: Apoyo emocional / asistencia psiquiátrica de animales que viajan en una cabina con un pasajero discapacitado. Especificar la raza y el peso del animal",
+			"passengerType": "ADT"
+		},
+		{
+			"bookingInstructions": {
+				"mandatoryText": "not_allowed",
+				"pattern": "",
+				"placeHolder": "",
+				"type": ""
+			},
+			"code": "WCHR",
+			"desc": "Silla de ruedas para rampas: Necesito la silla de ruedas para cubrir la distancia hasta / desde la puerta de embarque. Puedo acceder al avión por escaleras y desplazarme dentro del mismo sin necesidad de asistencia.",
+			"passengerType": "ADT"
+		},
+		{
+			"bookingInstructions": {
+				"mandatoryText": "not_allowed",
+				"pattern": "",
+				"placeHolder": "",
+				"type": ""
+			},
+			"code": "BLND",
+			"desc": "Pasajero ciego: Solicite servicio de animales si viaja con uno",
+			"passengerType": "ADT"
+		},
+		{
+			"bookingInstructions": {
+				"mandatoryText": "mandatory",
+				"pattern": "",
+				"placeHolder": "Especifique detalles",
+				"type": "text"
+			},
+			"code": "DPNA",
+			"desc": "Pasajero discapacitado: Pasajero con discapacidad intelectual o de desarrollo que necesite ayuda (especifique detalles)",
+			"passengerType": "ADT"
+		},
+		{
+			"bookingInstructions": {
+				"mandatoryText": "not_allowed",
+				"pattern": "",
+				"placeHolder": "",
+				"type": ""
+			},
+			"code": "WCHS",
+			"desc": "Silla de ruedas para escalones: Necesito la silla de ruedas para cubrir la distancia hasta / desde la puerta del avión. No puedo subir ni bajar escaleras, pero puedo desplazarme hasta mi asiento sin necesidad de asistencia.",
+			"passengerType": "ADT"
+		}
+	]
+}

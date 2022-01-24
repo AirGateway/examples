@@ -1,0 +1,39 @@
+{
+	"corporateID": "",
+	"passengers": [
+		{
+			"document": {
+				"documentID": "115233245A",
+				"documentType": "PP",
+				"expirationDate": "2025-07-11"
+			},
+			"passenger": {
+				"address": {
+					"cityName": "Saint-Petersburg",
+					"countryCode": "RU",
+					"postalCode": "197373",
+					"street": "Test"
+				},
+				"birthdate": "2002-02-08",
+				"emailContact": "smith@airgateway.net",
+				"fqtvInfo": {
+					"account": {
+						"number": "61456"
+					},
+					"airlineID": "IZ"
+				},
+				"gender": "Male",
+				"nameGiven": "Angel",
+				"passengerType": "ADT",
+				"phone": {
+					"areaCode": "",
+					"countryCode": "34",
+					"number": "666123123"
+				},
+				"surname": "Lawless"
+			},
+			"travelerReference": "ADT0"
+		}
+	],
+	"shoppingResponseID": "8GIG1VX7M5BBB9UDX6ZWIT9UWMA1B28JONKFQ9FGS3OVC1QPFFPD3KVQ3DN9X590"
+}

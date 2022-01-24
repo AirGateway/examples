@@ -1,0 +1,1123 @@
+{
+	"agency": "airgateway",
+	"agencyData": {
+		"countryCode": "",
+		"iataCode": "00099993"
+	},
+	"allowedRequests": {
+		"pending": {
+			"OrderCancel": true,
+			"OrderReprice": true,
+			"OrderSplit": false,
+			"SeatAvailability": false,
+			"ServiceList": false,
+			"TicketIssue": true
+		},
+		"started": {
+			"OrderCancel": true,
+			"OrderReshop": true,
+			"OrderReshopRefund": true
+		},
+		"ticketed": {
+			"OrderCancel": false,
+			"OrderReshop": true,
+			"OrderReshopRefund": true,
+			"OrderReshopRouteChange": false,
+			"OrderSplit": false,
+			"OrderVoid": true,
+			"SeatAvailability": true,
+			"ServiceList": true
+		}
+	},
+	"approvalStatus": "",
+	"bookingReference": {
+		"airlineID": "IB",
+		"id": "LQ0KT",
+		"otherID": "IB"
+	},
+	"disclosures": [
+		{
+			"descriptions": [
+				{
+					"category": "SEAT",
+					"item": "CABINTYPE",
+					"metadataToken": "",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "Cabina: Turista",
+					"units": ""
+				},
+				{
+					"category": "BAGGAGE_CARRYON",
+					"item": "BAGGAGE_CARRYON",
+					"metadataToken": "",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"properties": [
+						{
+							"UOM": "cm",
+							"type": "Height",
+							"value": "56"
+						},
+						{
+							"UOM": "cm",
+							"type": "Length",
+							"value": "40"
+						},
+						{
+							"UOM": "cm",
+							"type": "Widht",
+							"value": "25"
+						}
+					],
+					"text": "Equipaje de mano: 1 bulto (56x40x25cm)",
+					"units": "1"
+				},
+				{
+					"category": "BAGGAGE_CHECKED",
+					"item": "BAGGAGE_CHECKED",
+					"metadataToken": "",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "Equipaje en bodega: 0 piezas.",
+					"units": "0"
+				},
+				{
+					"category": "MEALS",
+					"item": "DRINKS_FOOD",
+					"metadataToken": "",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "Comida: Incluido, excepto Level",
+					"units": ""
+				},
+				{
+					"category": "SEAT",
+					"item": "SEAT_RESERVATION",
+					"metadataToken": "",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "Selección de asiento: De pago.",
+					"units": ""
+				},
+				{
+					"category": "SEAT",
+					"item": "SEAT_SPACE",
+					"metadataToken": "",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "Selección de asiento XL: De pago",
+					"units": ""
+				},
+				{
+					"category": "SERVICE",
+					"item": "WI-FI",
+					"metadataToken": "",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "WiFi: De pago",
+					"units": ""
+				},
+				{
+					"category": "EXCHANGE",
+					"item": "CHANGES",
+					"metadataToken": "",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "Cambios: Permitidos en cualquier momento con una penalización de 180€, excepto en caso de no presentarse al vuelo (No-Show), que no permite cambio",
+					"units": ""
+				},
+				{
+					"category": "EXCHANGE",
+					"item": "REFUND",
+					"metadataToken": "",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "Reembolso (por sentido): No permitido",
+					"units": ""
+				},
+				{
+					"category": "PRIORITY",
+					"item": "CHECKIN",
+					"metadataToken": "",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "Mostrador check-in exclusivo: No",
+					"units": ""
+				},
+				{
+					"category": "LOUNGE",
+					"item": "LOUNGE",
+					"metadataToken": "",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "Acceso a salas VIP: No",
+					"units": ""
+				},
+				{
+					"category": "SERVICE",
+					"item": "TRACKING",
+					"metadataToken": "",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "Fast Track: No",
+					"units": ""
+				},
+				{
+					"category": "PRIORITY",
+					"item": "HIGH_PRIORITY",
+					"metadataToken": "",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "Entrega prioritaria equipaje: No",
+					"units": ""
+				},
+				{
+					"category": "MILES",
+					"item": "MILES",
+					"metadataToken": "",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "AVIOS: Si",
+					"units": ""
+				},
+				{
+					"category": "PRIORITY",
+					"item": "HIGH_PRIORITY",
+					"metadataToken": "",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "Prioridad de Embarque: No",
+					"units": ""
+				},
+				{
+					"category": "PRIORITY",
+					"item": "LOW_PRIORITY",
+					"metadataToken": "",
+					"originDestinationReference": "CDGJFK20210902121500 JFKCDG20210909174000",
+					"text": "Tarjeta de embarque anticipada: No incluido",
+					"units": ""
+				}
+			],
+			"listKey": "EUAJNB"
+		}
+	],
+	"externalOrderID": "IBd067dde9ae1f4a819b790eeefde48020OC",
+	"flights": [
+		{
+			"arrival": {
+				"airportCode": "JFK",
+				"airportName": "New York John F Kennedy International",
+				"date": "2021-09-02",
+				"terminalName": "8",
+				"time": "14:30"
+			},
+			"baggageAllowance": {
+				"carryOn": [
+					{
+						"chooseType": "one",
+						"options": [
+							{
+								"quantity": 2,
+								"text": "2 Carry on baggages"
+							}
+						],
+						"passengerRefs": "ADT0"
+					}
+				],
+				"checked": [
+					{
+						"chooseType": "one",
+						"options": [
+							{
+								"quantity": 0,
+								"text": "Checked baggage not included"
+							}
+						],
+						"passengerRefs": "ADT0"
+					}
+				]
+			},
+			"departure": {
+				"airportCode": "CDG",
+				"airportName": "Paris Charles de Gaulle",
+				"date": "2021-09-02",
+				"terminalName": "2E",
+				"time": "12:15"
+			},
+			"duration": "PT08H15M",
+			"key": "CDGJFK20210902121500",
+			"segments": [
+				{
+					"ODRef": "",
+					"detail": {
+						"classOfService": {
+							"cabinDesignator": "ECONOMY",
+							"code": "O",
+							"disclosureRefs": [
+								""
+							],
+							"fare": {
+								"basisCode": "OKN8T8B4",
+								"cabin": "5",
+								"code": "70J",
+								"marketingName": "Básica",
+								"priceClassName": "Básica",
+								"standardName": "Light",
+								"type": "Published"
+							},
+							"fareRules": [
+								{
+									"cancel": "Not Allowed",
+									"change": "For Fee",
+									"passengerRef": "ADT0",
+									"passengerType": "ADT",
+									"penalties": [
+										{
+											"amounts": [
+												{
+													"amount": 180,
+													"currency": "EUR",
+													"providerAmount": 180,
+													"providerCurrency": "EUR",
+													"remark": ""
+												}
+											],
+											"description": "",
+											"type": "EXCHANGE"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 180,
+													"currency": "EUR",
+													"providerAmount": 180,
+													"providerCurrency": "EUR",
+													"remark": ""
+												}
+											],
+											"description": "",
+											"type": "EXCHANGE"
+										},
+										{
+											"description": "CANCELLATIONS ANY TIME TICKET IS NON REFUNDABLE. NOTE   FARE COMPONENT IS NON REFUNDABLE; WAIVED FOR DEATH OF A PASSENGER AND PASSENGERS FAMILY MEMBERS UP TO 1ST DEGREE RELATIONS OR FOR PASSENGER/S HOSPITAL ADMISSION; WHEN COMBINING NON REFUNDABLE FARES WITH REFUNDABLE FARES 1. THE AMOUNT PAID ON EACH REFUNDABLE FARE COMPONENT IS REFUNDED LESS ANY APPLICABLE PENALTI. 2. THE AMOUNT PAID ON EACH NON REFUNDABLE FARE COMPONENT WILL NOT BE REFUNDED.; REFUND OF UNUSED TAXES FEES AND CHARGES PAID TO THIRD PARTIES PERMITTED. ASSOCIATED CARRIER IMPOSED CHARGES WILL NOT BE REFUNDED.; ANY NON REFUNDABLE AMOUNT FROM A PREVIOUS TICKET REMAINS NON REFUNDABLE FOLLOWING A CHANGE.; RESERVATION CANCELLED PRIOR TO TICKETED DEPARTURE TIME RETAINS TICKET VALUE FOR FUTURE TRAVEL WITHIN THE TICKET VALIDITY AND CHANGE FEE APPLIES. IF THE RESERVATION IS NOT CANCELLED PRIOR TO TICKETED DEPARTURE TIME REBOOKING IS NOT PERMITTED AND TICKET HAS NO VALUE AND ONLY UNUSED TAXES WILL BE REFUNDED. CHANGES ANY TIME CHARGE EUR 180.00. NOTE   CHARGE APPLIES PER TRANSACTION   PER PERSON TO ALL PASSENGER TYPES.; A CHANGE IS A DATE/FLIGHT/ROUTING/BOOKING CODE CHANGE. NEW RESERVATION AND REISSUE/REVALIDATION MUST BE MADE ON THE SAME DAY.; THE CHANGE FEE APPLIES PER TRANSACTION PER PERSON FOR ADULT AND CHILD. INFANT DISCOUNTS APPLY.; REISSUE MUST BE MADE THE SAME DAY AS CHANGE OF RESERVATION BUT NO LATER THAN SCHEDULED DEPARTURE TIME OF FLIGHT BEING CHANGED. OTHERWISE THE TICKET WILL ONLY BE VALID FOR REFUND IF APPLICABLE.; WHEN MORE THAN ONE FARE COMPONENT IS CHANGED THE HIGHEST PENALTY OF ALL CHANGED FARE COMPONENTS WITHIN THE JOURNEY APPLIES.; REPRICING CONDITIONS; A. BEFORE DEPARTURE OF JOURNEY WHEN THE FIRST FARE COMPONENT IS CHANGED THE ITINERARY MUST BE RE PRICED USING CURRENT FARES IN EFFECT ON THE DATE THE TICKET IS REISSUED. B. BEFORE DEPARTURE OF JOURNEY WHEN CHANGES ARE TO BOOKING CODE ONLY IN THE FIRST FARE COMPONENT AND RESULT IN A HIGHER FARE THE ITINERARY MUST BE RE PRICED USING HISTORICAL FARES IN EFFECT ON THE PREVIOUS TICKETING DATE OR USING CURRENT FARES IN EFFECT ON THE DATE THE TICKET IS REISSUED   WHICHEVER IS LOWER. C. BEFORE DEPARTURE OF JOURNEY WHEN THERE ARE NO CHANGES TO THE FIRST FARE COMPONENT BUT OTHER FARE COMPONENTS ARE CHANGED THE ITINERARY MUST BE RE PRICED USING HISTORICAL FARES IN EFFECT ON THE PREVIOUS TICKETING DATE OR USING CURRENT FARES IN EFFECT ON THE DATE THE TICKET IS REISSUED   WHICHEVER IS LOWER. D. AFTER DEPARTURE OF JOURNEY THE ITINERARY MUST BE RE PRICED USING HISTORICAL FARES IN EFFECT ON THE PREVIOUS TICKETING DATE.; 1. IF SAME BOOKING CLASS IS USED NEW TICKET MAY BE LOWER   EQUEAL OR HIGHER THAN PREVIOUS AND MUST COMPLY WITH ALL PROVISIONS OF THE NEW FARE BEING APPLIED. 2. IF A DIFFERENT BOOKING CLASS IS USED NEW TICKET MAY BE EQUAL OR HIGHER THAN PREVIOUS AND MUST COMPLY WITH ALL PROVISIONS OF THE NEW FARE BEING APPLIED.; WHEN THE ITINERARY RESULTS IN A HIGHER FARE THE DIFFERENCE WILL BE COLLECTED. ANY APPLICABLE CHANGE FEE STILL APPLIES.; WHEN THE NEW ITINERARY RESULTS IN A LOWER FARE THE CHANGE FEE APPLIES AND NO CREDIT OF THE RESIDUAL AMOUNT WILL BE MADE.; TICKET IS NOT TRANSFERABLE TO ANOTHER PERSON. NO SHOW NOT PERMITTED NO SHOWS FOR A FLIGHT ARE CONSIDERED A CANCELLATION AFTER DEPARTURE AND CHANGES ARE NOT PERMITTED",
+											"type": ""
+										}
+									]
+								}
+							],
+							"generalClassCode": "",
+							"refs": ""
+						},
+						"duration": "PT8H15M",
+						"seatsLeft": "",
+						"segmentType": "HK",
+						"stopQuantity": "0"
+					},
+					"equipment": {
+						"aircraftCode": "772",
+						"name": "Boeing 777-200/200ER Passenger"
+					},
+					"flightNumber": "AA0045",
+					"marketingCarrier": {
+						"airlineID": "IB",
+						"flightNumber": "4176",
+						"name": "Iberia"
+					},
+					"operatingCarrier": {
+						"airlineID": "AA",
+						"flightNumber": "0045",
+						"name": "American Airlines"
+					},
+					"originDestination": {
+						"arrival": {
+							"airportCode": "JFK",
+							"airportName": "New York John F Kennedy International",
+							"countryID": "",
+							"date": "2021-09-02",
+							"parentLocation": "",
+							"terminalName": "8",
+							"time": "14:30"
+						},
+						"departure": {
+							"airportCode": "CDG",
+							"airportName": "Paris Charles de Gaulle",
+							"countryID": "",
+							"date": "2021-09-02",
+							"parentLocation": "",
+							"terminalName": "2E",
+							"time": "12:15"
+						}
+					},
+					"segmentID": "IB417620210902"
+				}
+			]
+		},
+		{
+			"arrival": {
+				"airportCode": "CDG",
+				"airportName": "Paris Charles de Gaulle",
+				"date": "2021-09-10",
+				"terminalName": "2E",
+				"time": "06:55"
+			},
+			"baggageAllowance": {
+				"carryOn": [
+					{
+						"chooseType": "one",
+						"options": [
+							{
+								"quantity": 2,
+								"text": "2 Carry on baggages"
+							}
+						],
+						"passengerRefs": "ADT0"
+					}
+				],
+				"checked": [
+					{
+						"chooseType": "one",
+						"options": [
+							{
+								"quantity": 0,
+								"text": "Checked baggage not included"
+							}
+						],
+						"passengerRefs": "ADT0"
+					}
+				]
+			},
+			"departure": {
+				"airportCode": "JFK",
+				"airportName": "New York John F Kennedy International",
+				"date": "2021-09-09",
+				"terminalName": "8",
+				"time": "17:40"
+			},
+			"duration": "PT07H15M",
+			"key": "JFKCDG20210909174000",
+			"segments": [
+				{
+					"ODRef": "",
+					"detail": {
+						"classOfService": {
+							"cabinDesignator": "ECONOMY",
+							"code": "O",
+							"disclosureRefs": [
+								""
+							],
+							"fare": {
+								"basisCode": "OKN8T8B4",
+								"cabin": "5",
+								"code": "70J",
+								"marketingName": "Básica",
+								"priceClassName": "Básica",
+								"standardName": "Light",
+								"type": "Published"
+							},
+							"fareRules": [
+								{
+									"cancel": "Not Allowed",
+									"change": "For Fee",
+									"passengerRef": "ADT0",
+									"passengerType": "ADT",
+									"penalties": [
+										{
+											"amounts": [
+												{
+													"amount": 180,
+													"currency": "EUR",
+													"providerAmount": 180,
+													"providerCurrency": "EUR",
+													"remark": ""
+												}
+											],
+											"description": "",
+											"type": "EXCHANGE"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 180,
+													"currency": "EUR",
+													"providerAmount": 180,
+													"providerCurrency": "EUR",
+													"remark": ""
+												}
+											],
+											"description": "",
+											"type": "EXCHANGE"
+										},
+										{
+											"description": "CANCELLATIONS ANY TIME TICKET IS NON REFUNDABLE. NOTE   FARE COMPONENT IS NON REFUNDABLE; WAIVED FOR DEATH OF A PASSENGER AND PASSENGERS FAMILY MEMBERS UP TO 1ST DEGREE RELATIONS OR FOR PASSENGER/S HOSPITAL ADMISSION; WHEN COMBINING NON REFUNDABLE FARES WITH REFUNDABLE FARES 1. THE AMOUNT PAID ON EACH REFUNDABLE FARE COMPONENT IS REFUNDED LESS ANY APPLICABLE PENALTI. 2. THE AMOUNT PAID ON EACH NON REFUNDABLE FARE COMPONENT WILL NOT BE REFUNDED.; REFUND OF UNUSED TAXES FEES AND CHARGES PAID TO THIRD PARTIES PERMITTED. ASSOCIATED CARRIER IMPOSED CHARGES WILL NOT BE REFUNDED.; ANY NON REFUNDABLE AMOUNT FROM A PREVIOUS TICKET REMAINS NON REFUNDABLE FOLLOWING A CHANGE.; RESERVATION CANCELLED PRIOR TO TICKETED DEPARTURE TIME RETAINS TICKET VALUE FOR FUTURE TRAVEL WITHIN THE TICKET VALIDITY AND CHANGE FEE APPLIES. IF THE RESERVATION IS NOT CANCELLED PRIOR TO TICKETED DEPARTURE TIME REBOOKING IS NOT PERMITTED AND TICKET HAS NO VALUE AND ONLY UNUSED TAXES WILL BE REFUNDED. CHANGES ANY TIME CHARGE EUR 180.00. NOTE   CHARGE APPLIES PER TRANSACTION   PER PERSON TO ALL PASSENGER TYPES.; A CHANGE IS A DATE/FLIGHT/ROUTING/BOOKING CODE CHANGE. NEW RESERVATION AND REISSUE/REVALIDATION MUST BE MADE ON THE SAME DAY.; THE CHANGE FEE APPLIES PER TRANSACTION PER PERSON FOR ADULT AND CHILD. INFANT DISCOUNTS APPLY.; REISSUE MUST BE MADE THE SAME DAY AS CHANGE OF RESERVATION BUT NO LATER THAN SCHEDULED DEPARTURE TIME OF FLIGHT BEING CHANGED. OTHERWISE THE TICKET WILL ONLY BE VALID FOR REFUND IF APPLICABLE.; WHEN MORE THAN ONE FARE COMPONENT IS CHANGED THE HIGHEST PENALTY OF ALL CHANGED FARE COMPONENTS WITHIN THE JOURNEY APPLIES.; REPRICING CONDITIONS; A. BEFORE DEPARTURE OF JOURNEY WHEN THE FIRST FARE COMPONENT IS CHANGED THE ITINERARY MUST BE RE PRICED USING CURRENT FARES IN EFFECT ON THE DATE THE TICKET IS REISSUED. B. BEFORE DEPARTURE OF JOURNEY WHEN CHANGES ARE TO BOOKING CODE ONLY IN THE FIRST FARE COMPONENT AND RESULT IN A HIGHER FARE THE ITINERARY MUST BE RE PRICED USING HISTORICAL FARES IN EFFECT ON THE PREVIOUS TICKETING DATE OR USING CURRENT FARES IN EFFECT ON THE DATE THE TICKET IS REISSUED   WHICHEVER IS LOWER. C. BEFORE DEPARTURE OF JOURNEY WHEN THERE ARE NO CHANGES TO THE FIRST FARE COMPONENT BUT OTHER FARE COMPONENTS ARE CHANGED THE ITINERARY MUST BE RE PRICED USING HISTORICAL FARES IN EFFECT ON THE PREVIOUS TICKETING DATE OR USING CURRENT FARES IN EFFECT ON THE DATE THE TICKET IS REISSUED   WHICHEVER IS LOWER. D. AFTER DEPARTURE OF JOURNEY THE ITINERARY MUST BE RE PRICED USING HISTORICAL FARES IN EFFECT ON THE PREVIOUS TICKETING DATE.; 1. IF SAME BOOKING CLASS IS USED NEW TICKET MAY BE LOWER   EQUEAL OR HIGHER THAN PREVIOUS AND MUST COMPLY WITH ALL PROVISIONS OF THE NEW FARE BEING APPLIED. 2. IF A DIFFERENT BOOKING CLASS IS USED NEW TICKET MAY BE EQUAL OR HIGHER THAN PREVIOUS AND MUST COMPLY WITH ALL PROVISIONS OF THE NEW FARE BEING APPLIED.; WHEN THE ITINERARY RESULTS IN A HIGHER FARE THE DIFFERENCE WILL BE COLLECTED. ANY APPLICABLE CHANGE FEE STILL APPLIES.; WHEN THE NEW ITINERARY RESULTS IN A LOWER FARE THE CHANGE FEE APPLIES AND NO CREDIT OF THE RESIDUAL AMOUNT WILL BE MADE.; TICKET IS NOT TRANSFERABLE TO ANOTHER PERSON. NO SHOW NOT PERMITTED NO SHOWS FOR A FLIGHT ARE CONSIDERED A CANCELLATION AFTER DEPARTURE AND CHANGES ARE NOT PERMITTED",
+											"type": ""
+										}
+									]
+								}
+							],
+							"generalClassCode": "",
+							"refs": ""
+						},
+						"duration": "PT7H15M",
+						"seatsLeft": "",
+						"segmentType": "HK",
+						"stopQuantity": "0"
+					},
+					"equipment": {
+						"aircraftCode": "772",
+						"name": "Boeing 777-200/200ER Passenger"
+					},
+					"flightNumber": "AA0044",
+					"marketingCarrier": {
+						"airlineID": "IB",
+						"flightNumber": "4158",
+						"name": "Iberia"
+					},
+					"operatingCarrier": {
+						"airlineID": "AA",
+						"flightNumber": "0044",
+						"name": "American Airlines"
+					},
+					"originDestination": {
+						"arrival": {
+							"airportCode": "CDG",
+							"airportName": "Paris Charles de Gaulle",
+							"countryID": "",
+							"date": "2021-09-10",
+							"parentLocation": "",
+							"terminalName": "2E",
+							"time": "06:55"
+						},
+						"departure": {
+							"airportCode": "JFK",
+							"airportName": "New York John F Kennedy International",
+							"countryID": "",
+							"date": "2021-09-09",
+							"parentLocation": "",
+							"terminalName": "8",
+							"time": "17:40"
+						}
+					},
+					"segmentID": "IB415820210909"
+				}
+			]
+		}
+	],
+	"formOfPayment": "Cash",
+	"id": "AGW-XG4JY7Q9CK",
+	"orderID": "IBd067dde9ae1f4a819b790eeefde48020OC",
+	"passengers": [
+		{
+			"data": {
+				"address": {
+					"cityName": "Saint-Petersburg",
+					"countryCode": "RU",
+					"postalCode": "197373",
+					"street": "Test"
+				},
+				"birthdate": "2001-10-03",
+				"email": "smith@airgateway.net",
+				"fqtvInfo": {
+					"account": {
+						"number": ""
+					},
+					"airlineID": ""
+				},
+				"gender": "Male",
+				"name": "Amrinder",
+				"phone": "34666123123",
+				"residenceCountryCode": "",
+				"surname": "Ortiz",
+				"title": "MR"
+			},
+			"document": {
+				"birthCountry": "",
+				"documentID": "115233245A",
+				"documentType": "PP",
+				"expirationDate": "2025-04-12",
+				"issueDate": "",
+				"residenceCountry": ""
+			},
+			"infantReference": "",
+			"passengerType": "ADT",
+			"travelerReference": "ADT0"
+		}
+	],
+	"pnr": "LQ0KT",
+	"price": {
+		"consumer": {
+			"base": 43,
+			"breakdown": [
+				{
+					"base": 43,
+					"offerItemID": "",
+					"passengerRefs": "ADT0",
+					"passengerType": "ADT",
+					"surcharge": 0,
+					"tax": {
+						"breakdown": [
+							{
+								"code": "FR",
+								"currency": "EUR",
+								"description": "",
+								"total": 8.37
+							},
+							{
+								"code": "FR",
+								"currency": "EUR",
+								"description": "",
+								"total": 11.7
+							},
+							{
+								"code": "O4",
+								"currency": "EUR",
+								"description": "",
+								"total": 3
+							},
+							{
+								"code": "XA",
+								"currency": "EUR",
+								"description": "",
+								"total": 3.34
+							},
+							{
+								"code": "YC",
+								"currency": "EUR",
+								"description": "",
+								"total": 5.05
+							},
+							{
+								"code": "QX",
+								"currency": "EUR",
+								"description": "",
+								"total": 29.62
+							},
+							{
+								"code": "IZ",
+								"currency": "EUR",
+								"description": "",
+								"total": 4.51
+							},
+							{
+								"code": "XY",
+								"currency": "EUR",
+								"description": "",
+								"total": 5.9
+							},
+							{
+								"code": "YQ",
+								"currency": "EUR",
+								"description": "",
+								"total": 112.5
+							},
+							{
+								"code": "US",
+								"currency": "EUR",
+								"description": "",
+								"total": 16.09
+							},
+							{
+								"code": "AY",
+								"currency": "EUR",
+								"description": "",
+								"total": 4.72
+							},
+							{
+								"code": "YQ",
+								"currency": "EUR",
+								"description": "",
+								"total": 112.5
+							},
+							{
+								"code": "US",
+								"currency": "EUR",
+								"description": "",
+								"total": 16.09
+							},
+							{
+								"code": "XF",
+								"currency": "EUR",
+								"description": "",
+								"total": 3.79
+							}
+						],
+						"total": 337.18
+					}
+				}
+			],
+			"currency": "EUR",
+			"tax": {
+				"breakdown": [
+					{
+						"code": "FR",
+						"currency": "EUR",
+						"description": "",
+						"total": 8.37
+					},
+					{
+						"code": "FR",
+						"currency": "EUR",
+						"description": "",
+						"total": 11.7
+					},
+					{
+						"code": "O4",
+						"currency": "EUR",
+						"description": "",
+						"total": 3
+					},
+					{
+						"code": "XA",
+						"currency": "EUR",
+						"description": "",
+						"total": 3.34
+					},
+					{
+						"code": "YC",
+						"currency": "EUR",
+						"description": "",
+						"total": 5.05
+					},
+					{
+						"code": "QX",
+						"currency": "EUR",
+						"description": "",
+						"total": 29.62
+					},
+					{
+						"code": "IZ",
+						"currency": "EUR",
+						"description": "",
+						"total": 4.51
+					},
+					{
+						"code": "XY",
+						"currency": "EUR",
+						"description": "",
+						"total": 5.9
+					},
+					{
+						"code": "YQ",
+						"currency": "EUR",
+						"description": "",
+						"total": 112.5
+					},
+					{
+						"code": "US",
+						"currency": "EUR",
+						"description": "",
+						"total": 16.09
+					},
+					{
+						"code": "AY",
+						"currency": "EUR",
+						"description": "",
+						"total": 4.72
+					},
+					{
+						"code": "YQ",
+						"currency": "EUR",
+						"description": "",
+						"total": 112.5
+					},
+					{
+						"code": "US",
+						"currency": "EUR",
+						"description": "",
+						"total": 16.09
+					},
+					{
+						"code": "XF",
+						"currency": "EUR",
+						"description": "",
+						"total": 3.79
+					}
+				],
+				"total": 337.18
+			},
+			"total": 380.18
+		},
+		"provider": {
+			"base": 43,
+			"breakdown": [
+				{
+					"base": 43,
+					"offerItemID": "",
+					"passengerRefs": "ADT0",
+					"passengerType": "ADT",
+					"surcharge": 0,
+					"tax": {
+						"breakdown": [
+							{
+								"code": "FR",
+								"currency": "EUR",
+								"description": "",
+								"total": 8.37
+							},
+							{
+								"code": "FR",
+								"currency": "EUR",
+								"description": "",
+								"total": 11.7
+							},
+							{
+								"code": "O4",
+								"currency": "EUR",
+								"description": "",
+								"total": 3
+							},
+							{
+								"code": "XA",
+								"currency": "EUR",
+								"description": "",
+								"total": 3.34
+							},
+							{
+								"code": "YC",
+								"currency": "EUR",
+								"description": "",
+								"total": 5.05
+							},
+							{
+								"code": "QX",
+								"currency": "EUR",
+								"description": "",
+								"total": 29.62
+							},
+							{
+								"code": "IZ",
+								"currency": "EUR",
+								"description": "",
+								"total": 4.51
+							},
+							{
+								"code": "XY",
+								"currency": "EUR",
+								"description": "",
+								"total": 5.9
+							},
+							{
+								"code": "YQ",
+								"currency": "EUR",
+								"description": "",
+								"total": 112.5
+							},
+							{
+								"code": "US",
+								"currency": "EUR",
+								"description": "",
+								"total": 16.09
+							},
+							{
+								"code": "AY",
+								"currency": "EUR",
+								"description": "",
+								"total": 4.72
+							},
+							{
+								"code": "YQ",
+								"currency": "EUR",
+								"description": "",
+								"total": 112.5
+							},
+							{
+								"code": "US",
+								"currency": "EUR",
+								"description": "",
+								"total": 16.09
+							},
+							{
+								"code": "XF",
+								"currency": "EUR",
+								"description": "",
+								"total": 3.79
+							}
+						],
+						"total": 337.18
+					}
+				}
+			],
+			"currency": "EUR",
+			"tax": {
+				"breakdown": [
+					{
+						"code": "FR",
+						"currency": "EUR",
+						"description": "",
+						"total": 8.37
+					},
+					{
+						"code": "FR",
+						"currency": "EUR",
+						"description": "",
+						"total": 11.7
+					},
+					{
+						"code": "O4",
+						"currency": "EUR",
+						"description": "",
+						"total": 3
+					},
+					{
+						"code": "XA",
+						"currency": "EUR",
+						"description": "",
+						"total": 3.34
+					},
+					{
+						"code": "YC",
+						"currency": "EUR",
+						"description": "",
+						"total": 5.05
+					},
+					{
+						"code": "QX",
+						"currency": "EUR",
+						"description": "",
+						"total": 29.62
+					},
+					{
+						"code": "IZ",
+						"currency": "EUR",
+						"description": "",
+						"total": 4.51
+					},
+					{
+						"code": "XY",
+						"currency": "EUR",
+						"description": "",
+						"total": 5.9
+					},
+					{
+						"code": "YQ",
+						"currency": "EUR",
+						"description": "",
+						"total": 112.5
+					},
+					{
+						"code": "US",
+						"currency": "EUR",
+						"description": "",
+						"total": 16.09
+					},
+					{
+						"code": "AY",
+						"currency": "EUR",
+						"description": "",
+						"total": 4.72
+					},
+					{
+						"code": "YQ",
+						"currency": "EUR",
+						"description": "",
+						"total": 112.5
+					},
+					{
+						"code": "US",
+						"currency": "EUR",
+						"description": "",
+						"total": 16.09
+					},
+					{
+						"code": "XF",
+						"currency": "EUR",
+						"description": "",
+						"total": 3.79
+					}
+				],
+				"total": 337.18
+			},
+			"total": 380.18
+		}
+	},
+	"readyToTicketIssue": true,
+	"status": "Ticketed",
+	"tickets": [
+		{
+			"dateOfIssue": "2021-08-05",
+			"numberOfBooklets": 1,
+			"passengerRef": "ADT0",
+			"price": {
+				"consumer": {
+					"base": 43,
+					"currency": "EUR",
+					"tax": {
+						"breakdown": [
+							{
+								"code": "FR",
+								"currency": "EUR",
+								"description": "",
+								"total": 8.37
+							},
+							{
+								"code": "FR",
+								"currency": "EUR",
+								"description": "",
+								"total": 11.7
+							},
+							{
+								"code": "O4",
+								"currency": "EUR",
+								"description": "",
+								"total": 3
+							},
+							{
+								"code": "XA",
+								"currency": "EUR",
+								"description": "",
+								"total": 3.34
+							},
+							{
+								"code": "YC",
+								"currency": "EUR",
+								"description": "",
+								"total": 5.05
+							},
+							{
+								"code": "QX",
+								"currency": "EUR",
+								"description": "",
+								"total": 29.62
+							},
+							{
+								"code": "IZ",
+								"currency": "EUR",
+								"description": "",
+								"total": 4.51
+							},
+							{
+								"code": "XY",
+								"currency": "EUR",
+								"description": "",
+								"total": 5.9
+							},
+							{
+								"code": "YQ",
+								"currency": "EUR",
+								"description": "",
+								"total": 112.5
+							},
+							{
+								"code": "US",
+								"currency": "EUR",
+								"description": "",
+								"total": 16.09
+							},
+							{
+								"code": "AY",
+								"currency": "EUR",
+								"description": "",
+								"total": 4.72
+							},
+							{
+								"code": "YQ",
+								"currency": "EUR",
+								"description": "",
+								"total": 112.5
+							},
+							{
+								"code": "US",
+								"currency": "EUR",
+								"description": "",
+								"total": 16.09
+							},
+							{
+								"code": "XF",
+								"currency": "EUR",
+								"description": "",
+								"total": 3.79
+							}
+						],
+						"total": 337.18
+					},
+					"total": 380.18
+				},
+				"provider": {
+					"base": 43,
+					"currency": "EUR",
+					"tax": {
+						"breakdown": [
+							{
+								"code": "FR",
+								"currency": "EUR",
+								"description": "",
+								"total": 8.37
+							},
+							{
+								"code": "FR",
+								"currency": "EUR",
+								"description": "",
+								"total": 11.7
+							},
+							{
+								"code": "O4",
+								"currency": "EUR",
+								"description": "",
+								"total": 3
+							},
+							{
+								"code": "XA",
+								"currency": "EUR",
+								"description": "",
+								"total": 3.34
+							},
+							{
+								"code": "YC",
+								"currency": "EUR",
+								"description": "",
+								"total": 5.05
+							},
+							{
+								"code": "QX",
+								"currency": "EUR",
+								"description": "",
+								"total": 29.62
+							},
+							{
+								"code": "IZ",
+								"currency": "EUR",
+								"description": "",
+								"total": 4.51
+							},
+							{
+								"code": "XY",
+								"currency": "EUR",
+								"description": "",
+								"total": 5.9
+							},
+							{
+								"code": "YQ",
+								"currency": "EUR",
+								"description": "",
+								"total": 112.5
+							},
+							{
+								"code": "US",
+								"currency": "EUR",
+								"description": "",
+								"total": 16.09
+							},
+							{
+								"code": "AY",
+								"currency": "EUR",
+								"description": "",
+								"total": 4.72
+							},
+							{
+								"code": "YQ",
+								"currency": "EUR",
+								"description": "",
+								"total": 112.5
+							},
+							{
+								"code": "US",
+								"currency": "EUR",
+								"description": "",
+								"total": 16.09
+							},
+							{
+								"code": "XF",
+								"currency": "EUR",
+								"description": "",
+								"total": 3.79
+							}
+						],
+						"total": 337.18
+					},
+					"total": 380.18
+				}
+			},
+			"status": "AIR",
+			"statusDefinition": "",
+			"ticketNumber": "0752101095973",
+			"timeOfIssue": "10:32",
+			"typeCode": "T",
+			"typeCodeDefinition": "Ticket"
+		}
+	]
+}

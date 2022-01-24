@@ -1,0 +1,16 @@
+{
+	"id": "BP-WCVWFEQXA6",
+    "payment": {
+        "cardHolderTitle": "MR",
+        "cashEmail": "eloy@airgateway.com",
+        "cashName": "eloy",
+        "cashSurname": "airgateway",
+        "cashTitle": "MR",
+        "method": "cash",
+        "phone": {
+            "areaCode": "",
+            "countryCode": "34",
+            "number": "666123123"
+        }
+    }
+}

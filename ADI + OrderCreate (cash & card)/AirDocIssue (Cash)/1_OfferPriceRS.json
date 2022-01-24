@@ -1,0 +1,1163 @@
+{
+	"allowedPaymentMethods": {
+		"agencyCard": true,
+		"agencyCash": true,
+		"card": true,
+		"none": true
+	},
+	"allowedRequests": {
+		"OrderCreateWithPayment": false,
+		"SeatAvailability": false,
+		"ServiceList": false
+	},
+	"createdAt": 1629887493,
+	"disclosures": [
+		{
+			"descriptions": [
+				{
+					"category": "SEAT",
+					"item": "SEAT",
+					"media": {
+						"link": "https://img.static-af.com/images/meta/IDname/picto-siege-standard/"
+					},
+					"text": "This is a comfortable standard Economy seat."
+				},
+				{
+					"category": "SERVICE",
+					"item": "SERVICE",
+					"media": {
+						"link": "https://img.static-af.com/images/meta/IDname/picto-presse/"
+					},
+					"text": "Download your favorite digital press onto your tablet or mobile free of charge, starting from 30 hours before your flight"
+				},
+				{
+					"category": "SEAT",
+					"item": "SEAT_SPACE",
+					"media": {
+						"link": "https://img.static-af.com/images/meta/IDname/picto-siege-duo/"
+					},
+					"text": "Seats are arranged in rows of 2?x?3 seats, separated by 1?aisle."
+				}
+			],
+			"listKey": "DC1"
+		},
+		{
+			"descriptions": [
+				{
+					"category": "SEAT",
+					"item": "SEAT",
+					"media": {
+						"link": "https://img.static-af.com/images/meta/IDname/picto-siege-standard/"
+					},
+					"text": "This is a comfortable standard Economy seat."
+				},
+				{
+					"category": "SERVICE",
+					"item": "SERVICE",
+					"media": {
+						"link": "https://img.static-af.com/images/meta/IDname/picto-presse/"
+					},
+					"text": "Download your favorite digital press onto your tablet or mobile free of charge, starting from 30 hours before your flight"
+				},
+				{
+					"category": "SEAT",
+					"item": "SEAT_SPACE",
+					"media": {
+						"link": "https://img.static-af.com/images/meta/IDname/picto-siege-duo/"
+					},
+					"text": "Seats are arranged in rows of 2?x?3 seats, separated by 1?aisle."
+				}
+			],
+			"listKey": "DC2"
+		},
+		{
+			"descriptions": [
+				{
+					"category": "SEAT",
+					"item": "SEAT",
+					"media": {
+						"link": "https://img.static-af.com/images/meta/IDname/picto-siege-standard/"
+					},
+					"text": "This is a comfortable standard Economy seat."
+				},
+				{
+					"category": "SERVICE",
+					"item": "SERVICE",
+					"media": {
+						"link": "https://img.static-af.com/images/meta/IDname/picto-presse/"
+					},
+					"text": "Download your favorite digital press onto your tablet or mobile free of charge, starting from 30 hours before your flight"
+				},
+				{
+					"category": "SERVICE",
+					"item": "SERVICE",
+					"media": {
+						"link": "https://img.static-af.com/images/meta/IDname/picto-usb/"
+					},
+					"text": "A USB port is available for your seat to make your journey easier."
+				},
+				{
+					"category": "SEAT",
+					"item": "SEAT_SPACE",
+					"media": {
+						"link": "https://img.static-af.com/images/meta/IDname/picto-siege-duo/"
+					},
+					"text": "Seats are arranged in rows of 2?x?3 seats, separated by 1?aisle."
+				}
+			],
+			"listKey": "DC3"
+		}
+	],
+	"flights": [
+		{
+			"arrival": {
+				"airportCode": "CDG",
+				"airportName": "",
+				"countryID": "",
+				"date": "2021-09-03",
+				"parentLocation": "",
+				"terminalName": "2F",
+				"time": "22:05"
+			},
+			"baggageAllowance": {
+				"carryOn": [
+					{
+						"chooseType": "one",
+						"options": [
+							{
+								"properties": [
+									{
+										"UOM": "CM",
+										"type": "Height",
+										"value": "35.0"
+									},
+									{
+										"UOM": "CM",
+										"type": "Widht",
+										"value": "25.0"
+									},
+									{
+										"UOM": "CM",
+										"type": "Length",
+										"value": "55.0"
+									},
+									{
+										"UOM": "CM",
+										"type": "Total Linear",
+										"value": "115.0"
+									},
+									{
+										"UOM": "IN",
+										"type": "Height",
+										"value": "14.0"
+									},
+									{
+										"UOM": "IN",
+										"type": "Widht",
+										"value": "10.0"
+									},
+									{
+										"UOM": "IN",
+										"type": "Length",
+										"value": "22.0"
+									},
+									{
+										"UOM": "IN",
+										"type": "Total Linear",
+										"value": "46.0"
+									},
+									{
+										"UOM": "KG",
+										"type": "Weight",
+										"value": "12.0"
+									},
+									{
+										"UOM": "LB",
+										"type": "Weight",
+										"value": "26.0"
+									}
+								],
+								"quantity": 1,
+								"text": "1 CarryOn bag"
+							}
+						],
+						"passengerRefs": "PAX1 PAX2"
+					}
+				],
+				"checked": [
+					{
+						"chooseType": "one",
+						"options": [
+							{
+								"text": "Checked bag not included"
+							}
+						],
+						"passengerRefs": "PAX1 PAX2"
+					}
+				]
+			},
+			"departure": {
+				"airportCode": "NCE",
+				"airportName": "",
+				"countryID": "",
+				"date": "2021-09-03",
+				"parentLocation": "",
+				"terminalName": "2",
+				"time": "20:30"
+			},
+			"duration": "PT01H35M",
+			"key": "PJ1",
+			"segments": [
+				{
+					"ODRef": "OD1",
+					"detail": {
+						"classOfService": {
+							"cabinDesignator": "ECONOMY",
+							"code": "M",
+							"fare": {
+								"basisCode": "VS50MALG",
+								"marketingName": "ECONOMY",
+								"priceClassName": "Light",
+								"type": "Published"
+							},
+							"fareRules": [
+								{
+									"cancel": "Not Allowed",
+									"change": "For Fee",
+									"passengerRef": "PAX1",
+									"passengerType": "ADT",
+									"penalties": [
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "NoShow"
+												}
+											],
+											"description": "NoShow is not authorized in case of no show",
+											"type": "NoShow"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "Cancellation"
+												}
+											],
+											"description": "Cancellation is not authorized before departure",
+											"type": "Cancellation"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "Cancellation"
+												}
+											],
+											"description": "Cancellation is not authorized after departure",
+											"type": "Cancellation"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "Change"
+												}
+											],
+											"description": "Change before departure is allowed without any penalty",
+											"type": "Change"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "Change"
+												}
+											],
+											"description": "Change after departure is allowed without any penalty",
+											"type": "Change"
+										}
+									]
+								},
+								{
+									"cancel": "Not Allowed",
+									"change": "For Fee",
+									"passengerRef": "PAX2",
+									"passengerType": "CHD",
+									"penalties": [
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "NoShow"
+												}
+											],
+											"description": "NoShow is not authorized in case of no show",
+											"type": "NoShow"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "Cancellation"
+												}
+											],
+											"description": "Cancellation is not authorized before departure",
+											"type": "Cancellation"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "Cancellation"
+												}
+											],
+											"description": "Cancellation is not authorized after departure",
+											"type": "Cancellation"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "Change"
+												}
+											],
+											"description": "Change before departure is allowed without any penalty",
+											"type": "Change"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "Change"
+												}
+											],
+											"description": "Change after departure is allowed without any penalty",
+											"type": "Change"
+										}
+									]
+								}
+							],
+							"refs": ""
+						},
+						"segmentType": "HK",
+						"stopQuantity": "0"
+					},
+					"equipment": {
+						"aircraftCode": "",
+						"name": ""
+					},
+					"flightNumber": "AF7715",
+					"marketingCarrier": {
+						"airlineID": "AF",
+						"flightNumber": "7715",
+						"name": "AIR FRANCE"
+					},
+					"operatingCarrier": {
+						"airlineID": "AF",
+						"flightNumber": "7715",
+						"name": "AIR FRANCE"
+					},
+					"originDestination": {
+						"arrival": {
+							"airportCode": "CDG",
+							"airportName": "",
+							"countryID": "",
+							"date": "2021-09-03",
+							"parentLocation": "",
+							"terminalName": "2F",
+							"time": "22:05"
+						},
+						"departure": {
+							"airportCode": "NCE",
+							"airportName": "",
+							"countryID": "",
+							"date": "2021-09-03",
+							"parentLocation": "",
+							"terminalName": "2",
+							"time": "20:30"
+						}
+					},
+					"segmentID": "SEG1"
+				}
+			]
+		},
+		{
+			"arrival": {
+				"airportCode": "NCE",
+				"airportName": "",
+				"countryID": "",
+				"date": "2021-09-10",
+				"parentLocation": "",
+				"terminalName": "2",
+				"time": "17:20"
+			},
+			"baggageAllowance": {
+				"carryOn": [
+					{
+						"chooseType": "one",
+						"options": [
+							{
+								"properties": [
+									{
+										"UOM": "CM",
+										"type": "Height",
+										"value": "35.0"
+									},
+									{
+										"UOM": "CM",
+										"type": "Widht",
+										"value": "25.0"
+									},
+									{
+										"UOM": "CM",
+										"type": "Length",
+										"value": "55.0"
+									},
+									{
+										"UOM": "CM",
+										"type": "Total Linear",
+										"value": "115.0"
+									},
+									{
+										"UOM": "IN",
+										"type": "Height",
+										"value": "14.0"
+									},
+									{
+										"UOM": "IN",
+										"type": "Widht",
+										"value": "10.0"
+									},
+									{
+										"UOM": "IN",
+										"type": "Length",
+										"value": "22.0"
+									},
+									{
+										"UOM": "IN",
+										"type": "Total Linear",
+										"value": "46.0"
+									},
+									{
+										"UOM": "KG",
+										"type": "Weight",
+										"value": "12.0"
+									},
+									{
+										"UOM": "LB",
+										"type": "Weight",
+										"value": "26.0"
+									}
+								],
+								"quantity": 1,
+								"text": "1 CarryOn bag"
+							}
+						],
+						"passengerRefs": "PAX1 PAX2"
+					}
+				],
+				"checked": [
+					{
+						"chooseType": "one",
+						"options": [
+							{
+								"text": "Checked bag not included"
+							}
+						],
+						"passengerRefs": "PAX1 PAX2"
+					}
+				]
+			},
+			"departure": {
+				"airportCode": "CDG",
+				"airportName": "",
+				"countryID": "",
+				"date": "2021-09-10",
+				"parentLocation": "",
+				"terminalName": "2F",
+				"time": "12:25"
+			},
+			"duration": "PT04H55M",
+			"key": "PJ2",
+			"segments": [
+				{
+					"ODRef": "OD2",
+					"detail": {
+						"classOfService": {
+							"cabinDesignator": "ECONOMY",
+							"code": "M",
+							"fare": {
+								"basisCode": "RS50MALG",
+								"marketingName": "ECONOMY",
+								"priceClassName": "Light",
+								"type": "Published"
+							},
+							"fareRules": [
+								{
+									"cancel": "Not Allowed",
+									"change": "For Fee",
+									"passengerRef": "PAX1",
+									"passengerType": "ADT",
+									"penalties": [
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "NoShow"
+												}
+											],
+											"description": "NoShow is not authorized in case of no show",
+											"type": "NoShow"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "Cancellation"
+												}
+											],
+											"description": "Cancellation is not authorized before departure",
+											"type": "Cancellation"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "Cancellation"
+												}
+											],
+											"description": "Cancellation is not authorized after departure",
+											"type": "Cancellation"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "Change"
+												}
+											],
+											"description": "Change before departure is allowed without any penalty",
+											"type": "Change"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "Change"
+												}
+											],
+											"description": "Change after departure is allowed without any penalty",
+											"type": "Change"
+										}
+									]
+								},
+								{
+									"cancel": "Not Allowed",
+									"change": "For Fee",
+									"passengerRef": "PAX2",
+									"passengerType": "CHD",
+									"penalties": [
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "NoShow"
+												}
+											],
+											"description": "NoShow is not authorized in case of no show",
+											"type": "NoShow"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "Cancellation"
+												}
+											],
+											"description": "Cancellation is not authorized before departure",
+											"type": "Cancellation"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "Cancellation"
+												}
+											],
+											"description": "Cancellation is not authorized after departure",
+											"type": "Cancellation"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "Change"
+												}
+											],
+											"description": "Change before departure is allowed without any penalty",
+											"type": "Change"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "Change"
+												}
+											],
+											"description": "Change after departure is allowed without any penalty",
+											"type": "Change"
+										}
+									]
+								}
+							],
+							"refs": ""
+						},
+						"segmentType": "HK",
+						"stopQuantity": "0"
+					},
+					"equipment": {
+						"aircraftCode": "",
+						"name": ""
+					},
+					"flightNumber": "AF7652",
+					"marketingCarrier": {
+						"airlineID": "AF",
+						"flightNumber": "7652",
+						"name": "AIR FRANCE"
+					},
+					"operatingCarrier": {
+						"airlineID": "AF",
+						"flightNumber": "7652",
+						"name": "AIR FRANCE"
+					},
+					"originDestination": {
+						"arrival": {
+							"airportCode": "LYS",
+							"airportName": "",
+							"countryID": "",
+							"date": "2021-09-10",
+							"parentLocation": "",
+							"terminalName": "2",
+							"time": "13:35"
+						},
+						"departure": {
+							"airportCode": "CDG",
+							"airportName": "",
+							"countryID": "",
+							"date": "2021-09-10",
+							"parentLocation": "",
+							"terminalName": "2F",
+							"time": "12:25"
+						}
+					},
+					"segmentID": "SEG4"
+				},
+				{
+					"ODRef": "OD2",
+					"detail": {
+						"classOfService": {
+							"cabinDesignator": "ECONOMY",
+							"code": "M",
+							"fare": {
+								"basisCode": "RS50MALG",
+								"marketingName": "ECONOMY",
+								"priceClassName": "Light",
+								"type": "Published"
+							},
+							"fareRules": [
+								{
+									"cancel": "Not Allowed",
+									"change": "For Fee",
+									"passengerRef": "PAX1",
+									"passengerType": "ADT",
+									"penalties": [
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "NoShow"
+												}
+											],
+											"description": "NoShow is not authorized in case of no show",
+											"type": "NoShow"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "Cancellation"
+												}
+											],
+											"description": "Cancellation is not authorized before departure",
+											"type": "Cancellation"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "Cancellation"
+												}
+											],
+											"description": "Cancellation is not authorized after departure",
+											"type": "Cancellation"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "Change"
+												}
+											],
+											"description": "Change before departure is allowed without any penalty",
+											"type": "Change"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "Change"
+												}
+											],
+											"description": "Change after departure is allowed without any penalty",
+											"type": "Change"
+										}
+									]
+								},
+								{
+									"cancel": "Not Allowed",
+									"change": "For Fee",
+									"passengerRef": "PAX2",
+									"passengerType": "CHD",
+									"penalties": [
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "NoShow"
+												}
+											],
+											"description": "NoShow is not authorized in case of no show",
+											"type": "NoShow"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "Cancellation"
+												}
+											],
+											"description": "Cancellation is not authorized before departure",
+											"type": "Cancellation"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "Cancellation"
+												}
+											],
+											"description": "Cancellation is not authorized after departure",
+											"type": "Cancellation"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "Change"
+												}
+											],
+											"description": "Change before departure is allowed without any penalty",
+											"type": "Change"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": "Change"
+												}
+											],
+											"description": "Change after departure is allowed without any penalty",
+											"type": "Change"
+										}
+									]
+								}
+							],
+							"refs": ""
+						},
+						"segmentType": "HK",
+						"stopQuantity": "0"
+					},
+					"equipment": {
+						"aircraftCode": "",
+						"name": ""
+					},
+					"flightNumber": "AF1698",
+					"marketingCarrier": {
+						"airlineID": "AF",
+						"flightNumber": "1698",
+						"name": "AIR FRANCE"
+					},
+					"operatingCarrier": {
+						"airlineID": "AF",
+						"flightNumber": "1698",
+						"name": "AIR FRANCE"
+					},
+					"originDestination": {
+						"arrival": {
+							"airportCode": "NCE",
+							"airportName": "",
+							"countryID": "",
+							"date": "2021-09-10",
+							"parentLocation": "",
+							"terminalName": "2",
+							"time": "17:20"
+						},
+						"departure": {
+							"airportCode": "LYS",
+							"airportName": "",
+							"countryID": "",
+							"date": "2021-09-10",
+							"parentLocation": "",
+							"terminalName": "2",
+							"time": "16:25"
+						}
+					},
+					"segmentID": "SEG5"
+				}
+			]
+		}
+	],
+	"offerID": "OFFER-QUY6UlQ6TkNFOkNERzoyMDIxLTA5LTAzOjIwMjEtMDktMTA6MzE0Ljk4OjIwMjEwODI1VDEyMzEyMDpjYTc2ZjQ4MjNkMjk0NWU3YThkN2IzMGFiMjI4ZWRlYjozVllZQUpFRjVNWFlWU0ZOTlFCSlpZQUcySktMMTI3SkFYWE1ZWTA3SDIzQzg4QVRMWjk1UTY1MUZXOVUyMlI4",
+	"owner": "AF",
+	"passengers": [
+		{
+			"infantReference": "",
+			"passengerType": "ADT",
+			"travelerReference": "PAX1"
+		},
+		{
+			"infantReference": "",
+			"passengerType": "CHD",
+			"travelerReference": "PAX2"
+		}
+	],
+	"paymentTimeLimit": "0001-01-01T00:00:00Z",
+	"price": {
+		"consumer": {
+			"base": 180,
+			"breakdown": [
+				{
+					"base": 100,
+					"offerItemID": "edbd24cb-3001-451a-bd24-cb3001951a75",
+					"passengerType": "ADT",
+					"tax": {
+						"breakdown": [
+							{
+								"code": "FR",
+								"currency": "EUR",
+								"total": 32.69
+							},
+							{
+								"code": "IZ",
+								"currency": "EUR",
+								"total": 2.26
+							},
+							{
+								"code": "O4",
+								"currency": "EUR",
+								"total": 3
+							},
+							{
+								"code": "QW",
+								"currency": "EUR",
+								"total": 23.4
+							},
+							{
+								"code": "UI",
+								"currency": "EUR",
+								"total": 6.14
+							}
+						],
+						"total": 67.49
+					}
+				},
+				{
+					"base": 80,
+					"offerItemID": "b0aa1b4d-9bdc-49a1-aa1b-4d9bdcd9a18a",
+					"passengerType": "CHD",
+					"tax": {
+						"breakdown": [
+							{
+								"code": "FR",
+								"currency": "EUR",
+								"total": 32.69
+							},
+							{
+								"code": "IZ",
+								"currency": "EUR",
+								"total": 2.26
+							},
+							{
+								"code": "O4",
+								"currency": "EUR",
+								"total": 3
+							},
+							{
+								"code": "QW",
+								"currency": "EUR",
+								"total": 23.4
+							},
+							{
+								"code": "UI",
+								"currency": "EUR",
+								"total": 6.14
+							}
+						],
+						"total": 67.49
+					}
+				}
+			],
+			"currency": "EUR",
+			"tax": {
+				"breakdown": [
+					{
+						"code": "FR",
+						"currency": "EUR",
+						"description": "SE",
+						"total": 65.38
+					},
+					{
+						"code": "IZ",
+						"currency": "EUR",
+						"description": "EB",
+						"total": 4.52
+					},
+					{
+						"code": "O4",
+						"currency": "EUR",
+						"description": "VC",
+						"total": 6
+					},
+					{
+						"code": "QW",
+						"currency": "EUR",
+						"description": "LO",
+						"total": 46.8
+					},
+					{
+						"code": "UI",
+						"currency": "EUR",
+						"description": "VZ",
+						"total": 12.28
+					}
+				],
+				"total": 134.98
+			},
+			"total": 314.98
+		},
+		"provider": {
+			"base": 180,
+			"breakdown": [
+				{
+					"base": 100,
+					"offerItemID": "edbd24cb-3001-451a-bd24-cb3001951a75",
+					"passengerType": "ADT",
+					"tax": {
+						"breakdown": [
+							{
+								"code": "FR",
+								"currency": "EUR",
+								"total": 32.69
+							},
+							{
+								"code": "IZ",
+								"currency": "EUR",
+								"total": 2.26
+							},
+							{
+								"code": "O4",
+								"currency": "EUR",
+								"total": 3
+							},
+							{
+								"code": "QW",
+								"currency": "EUR",
+								"total": 23.4
+							},
+							{
+								"code": "UI",
+								"currency": "EUR",
+								"total": 6.14
+							}
+						],
+						"total": 67.49
+					}
+				},
+				{
+					"base": 80,
+					"offerItemID": "b0aa1b4d-9bdc-49a1-aa1b-4d9bdcd9a18a",
+					"passengerType": "CHD",
+					"tax": {
+						"breakdown": [
+							{
+								"code": "FR",
+								"currency": "EUR",
+								"total": 32.69
+							},
+							{
+								"code": "IZ",
+								"currency": "EUR",
+								"total": 2.26
+							},
+							{
+								"code": "O4",
+								"currency": "EUR",
+								"total": 3
+							},
+							{
+								"code": "QW",
+								"currency": "EUR",
+								"total": 23.4
+							},
+							{
+								"code": "UI",
+								"currency": "EUR",
+								"total": 6.14
+							}
+						],
+						"total": 67.49
+					}
+				}
+			],
+			"currency": "EUR",
+			"tax": {
+				"breakdown": [
+					{
+						"code": "FR",
+						"currency": "EUR",
+						"description": "SE",
+						"total": 65.38
+					},
+					{
+						"code": "IZ",
+						"currency": "EUR",
+						"description": "EB",
+						"total": 4.52
+					},
+					{
+						"code": "O4",
+						"currency": "EUR",
+						"description": "VC",
+						"total": 6
+					},
+					{
+						"code": "QW",
+						"currency": "EUR",
+						"description": "LO",
+						"total": 46.8
+					},
+					{
+						"code": "UI",
+						"currency": "EUR",
+						"description": "VZ",
+						"total": 12.28
+					}
+				],
+				"total": 134.98
+			},
+			"total": 314.98
+		}
+	},
+	"shoppingResponseID": "N26LYSFQRBSXIMJ7QYIWT44UYL37N6ROQMQMXLBXOJFOSNUF30YKFJT6OVAACBEZ"
+}

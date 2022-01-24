@@ -1,0 +1,38 @@
+{
+    "corporateID": "",
+    "passengers": [
+        {
+            "data": {
+                "address": {
+                    "cityName": "Saint-Petersburg",
+                    "countryCode": "RU",
+                    "postalCode": "197373",
+                    "street": "Test"
+                },
+                "birthdate": "2002-09-23",
+                "email": "smith@airgateway.net",
+                "fqtvInfo": {
+                    "account": {
+                        "number": ""
+                    },
+                    "airlineID": ""
+                },
+                "gender": "Male",
+                "name": "Bethany",
+                "phone": "+34666123123",
+                "surname": "Bowers"
+            },
+            "document": {
+                "documentID": "115233245A",
+                "documentType": "PP",
+                "expirationDate": "2026-10-16"
+            },
+            "passengerType": "ADT",
+            "travelerReference": "ADT0"
+        }
+    ],
+    "payment": {
+        "method": "agencyCash"
+    },
+    "shoppingResponseID": "UCIS9RJQ5Z247KEX8G6QMPM91D25031TMAGSNIRRW0YNLZOAOQV2IBMYXJTR3RY4"
+}

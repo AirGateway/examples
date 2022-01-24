@@ -1,0 +1,54 @@
+{
+	"corporateID": "",
+	"passengers": [
+		{
+			"data": {
+				"address": {
+					"cityName": "Saint-Petersburg",
+					"countryCode": "RU",
+					"postalCode": "197373",
+					"street": "Test"
+				},
+				"birthdate": "2002-04-21",
+				"email": "smith@airgateway.net",
+				"fqtvInfo": {
+					"account": {
+						"number": ""
+					},
+					"airlineID": ""
+				},
+				"gender": "Male",
+				"name": "Karen",
+				"phone": "+34666123123",
+				"surname": "Paiser"
+			},
+			"document": {
+				"documentID": "115233245A",
+				"documentType": "PP",
+				"expirationDate": "2025-10-16"
+			},
+			"passengerType": "ADT",
+			"travelerReference": "ADT0"
+		}
+	],
+	"payment": {
+		"cardCode": "CA",
+		"cardHolderEmail": "accept@accept.com",
+		"cardHolderName": "JOHN",
+		"cardHolderSurname": "DOE",
+		"cardHolderTitle": "MR",
+		"cardNumber": "****************",
+		"cardType": "CC",
+		"cityName": "MAD",
+		"countryCode": "ES",
+		"expiration": "0523",
+		"method": "card",
+		"phone": "+34646666621",
+		"postalCode": "28900",
+		"seriesCode": "***",
+		"stateProv": "28",
+		"street1": "Ibiza 21",
+		"surchargeType": "MasterCard Personal"
+	},
+	"shoppingResponseID": "ZTCWD3J6HXT1NMW962IQS5YQEEG3DTKGEMH3VB3PEK8XI0OPSQ8TCUN0I3PTXAJB"
+}

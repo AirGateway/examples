@@ -1,0 +1,298 @@
+{
+	"agency": "airgateway",
+	"agencyData": {
+		"countryCode": "",
+		"iataCode": "00000136"
+	},
+	"allowedRequests": {
+		"postTicketing": {
+			"OrderCancel": true,
+			"OrderReshop": true,
+			"OrderReshopRouteChange": false,
+			"OrderSplit": true,
+			"OrderVoid": false,
+			"SeatAvailability": true,
+			"ServiceList": true
+		},
+		"preTicketing": {
+			"OrderCancel": true,
+			"OrderReprice": true,
+			"OrderSplit": true,
+			"SeatAvailability": true,
+			"ServiceList": true,
+			"TicketIssue": true
+		}
+	},
+	"approvalStatus": "",
+	"bookingDate": "2022-01-05 14:09",
+	"bookingReference": {
+		"airlineID": "BA",
+		"id": "QPQU74",
+		"otherID": "BA"
+	},
+	"bookingType": "OW",
+	"corporateID": "",
+	"createdAt": "2022-01-05 14:09",
+	"externalOrderID": "QPQU74",
+	"flights": [
+		{
+			"arrival": {
+				"airportCode": "FRA",
+				"airportName": "Frankfurt Airport",
+				"countryID": "",
+				"date": "2022-01-29",
+				"parentLocation": "",
+				"terminalName": "2",
+				"time": "16:40"
+			},
+			"departure": {
+				"airportCode": "LHR",
+				"airportName": "Heathrow (London) Airport",
+				"countryID": "",
+				"date": "2022-01-29",
+				"parentLocation": "",
+				"terminalName": "5",
+				"time": "13:55"
+			},
+			"flightKey": "Flight1",
+			"flightSegments": [
+				{
+					"equipment": {
+						"aircraftCode": "319",
+						"name": "Airbus A319 jet"
+					},
+					"flightDetail": {
+						"classOfService": {
+							"cabinDesignator": "ECONOMY",
+							"code": "O",
+							"disclosureRefs": [
+								""
+							],
+							"disclosures": {
+								"ADT": {
+									"fareRules": {
+										"Cancel": "Not Allowed",
+										"Change": "For Fee",
+										"penalties": [
+											{
+												"amounts": [
+													{
+														"amount": 737.83,
+														"currency": "SEK",
+														"providerAmount": 72,
+														"providerCurrency": "EUR",
+														"remark": ""
+													}
+												],
+												"description": "Time/date changes permitted at any time before each flight departure for a change fee of EUR 72 or an upgrade fee of EUR 72 plus any difference in fare. All sectors may be repriced. Changes subject to availability. Fees apply per ticket",
+												"type": "EXCHANGE"
+											},
+											{
+												"amounts": [
+													{
+														"amount": 737.83,
+														"currency": "SEK",
+														"providerAmount": 72,
+														"providerCurrency": "EUR",
+														"remark": ""
+													}
+												],
+												"description": "Time/date changes permitted at any time before each flight departure for a change fee of EUR 72 or an upgrade fee of EUR 72 plus any difference in fare. All sectors may be repriced. Changes subject to availability. Fees apply per ticket",
+												"type": "UPGRADE"
+											},
+											{
+												"amounts": [
+													{
+														"amount": 0,
+														"currency": "SEK",
+														"providerAmount": 0,
+														"providerCurrency": "EUR",
+														"remark": ""
+													}
+												],
+												"description": "There are no refunds except for any government \u0026amp; airport taxes.",
+												"type": "CANCEL"
+											}
+										]
+									}
+								}
+							},
+							"fareBasisCode": "",
+							"fareCabin": "I",
+							"fareStandardName": "SemiFlex",
+							"marketingName": "Basic",
+							"refs": ""
+						},
+						"fareBasisCode": "",
+						"fareCabin": "I",
+						"fareStandardName": "SemiFlex",
+						"fareType": "Published",
+						"flightDuration": "PT1H45M",
+						"flightSegmentType": "HK",
+						"stopQuantity": "0"
+					},
+					"flightNumber": "BA0908",
+					"marketingCarrier": {
+						"airlineID": "BA",
+						"flightNumber": "0908",
+						"name": "British Airways"
+					},
+					"operatingCarrier": {
+						"airlineID": "BA",
+						"disclosures": [
+							{
+								"descriptions": [
+									{
+										"text": "BA"
+									}
+								],
+								"listKey": ""
+							}
+						],
+						"flightNumber": "0908",
+						"name": "British Airways"
+					},
+					"originDestination": {
+						"arrival": {
+							"airportCode": "FRA",
+							"airportName": "Frankfurt Airport",
+							"countryID": "",
+							"date": "2022-01-29",
+							"parentLocation": "",
+							"terminalName": "2",
+							"time": "16:40"
+						},
+						"departure": {
+							"airportCode": "LHR",
+							"airportName": "Heathrow (London) Airport",
+							"countryID": "",
+							"date": "2022-01-29",
+							"parentLocation": "",
+							"terminalName": "5",
+							"time": "13:55"
+						}
+					},
+					"segmentID": "FS1"
+				}
+			]
+		}
+	],
+	"formOfPayment": "Card",
+	"id": "BP-WCVWFEQXA6",
+	"logs": [
+		{
+			"severity": "warning",
+			"text": "msg: Paid ancillary seat prices are not guaranteed and may change during post sale",
+			"timestamp": "2022-01-05T14:08:57.271209978Z",
+			"type": "OfferPrice"
+		},
+		{
+			"severity": "warning",
+			"text": "msg: Paid ancillary seat prices are not guaranteed and may change during post sale",
+			"timestamp": "2022-01-05T14:08:57.271209978Z",
+			"type": "OfferPrice"
+		}
+	],
+	"orderID": "QPQU74",
+	"passengers": [
+		{
+			"document": {
+				"documentID": "115233245A",
+				"documentType": "PP",
+				"expirationDate": "2025-07-11"
+			},
+			"fareBasisCodes": {
+				"FS1": "O"
+			},
+			"infantReference": "",
+			"passenger": {
+				"address": {
+					"cityName": "Saint-Petersburg",
+					"countryCode": "RU",
+					"postalCode": "197373",
+					"street": "Test"
+				},
+				"birthdate": "2002-02-08",
+				"contactInfoRef": "ContactInfo-T2",
+				"emailContact": "SMITH@AIRGATEWAY.NET",
+				"fqtvInfo": {
+					"account": {
+						"number": "61456"
+					},
+					"airlineID": "IZ"
+				},
+				"gender": "Male",
+				"nameGiven": "ANGEL",
+				"nameTitle": "MR",
+				"passengerType": "ADT",
+				"phone": {
+					"areaCode": "",
+					"countryCode": "",
+					"number": "34666123123"
+				},
+				"surname": "LAWLESS"
+			},
+			"travelerReference": "T2"
+		}
+	],
+	"paymentTimeLimit": "2022-01-05 23:59",
+	"pnr": "QPQU74",
+	"price": {
+		"baseAmount": 122.97,
+		"currency": "SEK",
+		"providerBaseAmount": 12,
+		"providerCurrency": "EUR",
+		"providerTotalPrice": 53.79,
+		"providerTotalTaxes": 41.79,
+		"taxes": [
+			{
+				"amount": 15.49,
+				"currency": "EUR",
+				"taxCode": "GB"
+			},
+			{
+				"amount": 26.3,
+				"currency": "EUR",
+				"taxCode": "UB"
+			}
+		],
+		"totalPrice": 551.22,
+		"totalTaxes": 428.25
+	},
+	"readyToTicketIssue": true,
+	"status": "Ticketed",
+	"tickets": [
+		{
+			"dateOfIssue": "2022-01-05",
+			"numberOfBooklets": 1,
+			"passengerRef": "T2",
+			"price": {
+				"baseAmount": 122.97,
+				"currency": "SEK",
+				"providerBaseAmount": 12,
+				"providerCurrency": "EUR",
+				"providerTotalPrice": 53.79,
+				"providerTotalTaxes": 41.79,
+				"taxes": [
+					{
+						"amount": 15.49,
+						"currency": "EUR",
+						"taxCode": "GB"
+					},
+					{
+						"amount": 26.3,
+						"currency": "EUR",
+						"taxCode": "UB"
+					}
+				],
+				"totalPrice": 551.22,
+				"totalTaxes": 428.25
+			},
+			"status": "T",
+			"ticketNumber": "125-2125525966",
+			"timeOfIssue": "",
+			"typeCode": "T"
+		}
+	],
+	"updatedAt": "2022-01-05 14:10"
+}

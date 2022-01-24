@@ -1,0 +1,142 @@
+{
+    "count": 3,
+    "history": [
+        {
+            "agency": "airgateway",
+            "agent": "eloy",
+            "details": null,
+            "eventID": "OrderCreated",
+            "eventTime": "2022-01-19 06:53:55"
+        },
+        {
+            "agency": "airgateway",
+            "agent": "eloy",
+            "details": null,
+            "eventID": "OrderTicketed",
+            "eventTime": "2022-01-19 06:53:56",
+            "transactionType": "Payment"
+        },
+        {
+            "agency": "airgateway",
+            "agent": "eloy",
+            "details": {
+                "changedRouteDetails": [
+                    {
+                        "arrival": {
+                            "airportCode": "LHR",
+                            "airportName": "Heathrow (London) Airport",
+                            "countryID": "",
+                            "date": "2022-02-05",
+                            "parentLocation": "",
+                            "terminalName": "5",
+                            "time": "08:20"
+                        },
+                        "departure": {
+                            "airportCode": "FRA",
+                            "airportName": "Frankfurt",
+                            "countryID": "",
+                            "date": "2022-02-05",
+                            "parentLocation": "",
+                            "terminalName": "2",
+                            "time": "07:25"
+                        },
+                        "flightKey": "BA0901-FRA-LHR-2022-02-05",
+                        "flightSegments": [
+                            {
+                                "ODRef": "OD1",
+                                "equipment": {
+                                    "aircraftCode": "320",
+                                    "name": "Airbus A320 jet"
+                                },
+                                "flightDetail": {
+                                    "classOfService": {
+                                        "cabinDesignator": "ECONOMY",
+                                        "code": "O",
+                                        "disclosureRefs": [
+                                            "PCR_1",
+                                            "PCR_1"
+                                        ],
+                                        "fareBasisCode": "OUZ0HO/Y",
+                                        "fareCabin": "5",
+                                        "fareStandardName": "Light",
+                                        "marketingName": "Economy Basic",
+                                        "refs": ""
+                                    },
+                                    "fareBasisCode": "OUZ0HO/Y",
+                                    "fareCabin": "5",
+                                    "fareCode": "70J",
+                                    "fareMarketingName": "Economy",
+                                    "fareStandardName": "Light",
+                                    "fareType": "Published",
+                                    "flightDuration": "PT1H55M",
+                                    "flightSegmentType": "HK",
+                                    "stopQuantity": "0"
+                                },
+                                "flightNumber": "BA0901",
+                                "marketingCarrier": {
+                                    "airlineID": "BA",
+                                    "flightNumber": "0901",
+                                    "name": "British Airways"
+                                },
+                                "operatingCarrier": {
+                                    "airlineID": "BA",
+                                    "disclosures": [
+                                        {
+                                            "descriptions": [
+                                                {
+                                                    "text": "BA"
+                                                }
+                                            ],
+                                            "listKey": ""
+                                        }
+                                    ],
+                                    "flightNumber": "0901",
+                                    "name": "British Airways"
+                                },
+                                "originDestination": {
+                                    "arrival": {
+                                        "airportCode": "LHR",
+                                        "airportName": "Heathrow (London) Airport",
+                                        "countryID": "",
+                                        "date": "2022-02-05",
+                                        "parentLocation": "",
+                                        "terminalName": "5",
+                                        "time": "08:20"
+                                    },
+                                    "departure": {
+                                        "airportCode": "FRA",
+                                        "airportName": "Frankfurt",
+                                        "countryID": "",
+                                        "date": "2022-02-05",
+                                        "parentLocation": "",
+                                        "terminalName": "2",
+                                        "time": "07:25"
+                                    },
+                                    "flightKey": ""
+                                },
+                                "segmentID": "BA0901-FRA-LHR-2022-02-05",
+                                "vendor": {
+                                    "airlineID": "",
+                                    "flightNumber": "",
+                                    "name": ""
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "totalAmount": 9,
+                "totalAmountCurrency": "EUR",
+                "type": "ItineraryChange"
+            },
+            "eventID": "ItineraryChange",
+            "eventTime": "2022-01-19 06:55:13",
+            "price": {
+                "consumer": {
+                    "currency": "EUR",
+                    "total": 9
+                }
+            },
+            "transactionType": "Payment"
+        }
+    ]
+}

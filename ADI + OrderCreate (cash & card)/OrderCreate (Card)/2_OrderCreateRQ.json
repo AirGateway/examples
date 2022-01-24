@@ -1,0 +1,1390 @@
+{
+	"agency": "monitor",
+	"agencyData": {
+		"countryCode": "",
+		"iataCode": "00000136"
+	},
+	"allowedRequests": {
+		"pending": {
+			"OrderCancel": true,
+			"OrderReprice": true,
+			"OrderSplit": true,
+			"SeatAvailability": true,
+			"ServiceList": true,
+			"TicketIssue": true
+		},
+		"started": {
+			"OrderCancel": true,
+			"OrderReshop": true,
+			"OrderReshopRefund": true
+		},
+		"ticketed": {
+			"OrderCancel": false,
+			"OrderReshop": true,
+			"OrderReshopRefund": true,
+			"OrderReshopRouteChange": false,
+			"OrderSplit": true,
+			"OrderVoid": true,
+			"SeatAvailability": true,
+			"ServiceList": true
+		}
+	},
+	"approvalStatus": "",
+	"bookingReference": {
+		"airlineID": "BA",
+		"id": "J2T9WY",
+		"otherID": "BA"
+	},
+	"disclosures": [
+		{
+			"descriptions": [
+				{
+					"category": "BAGGAGE_CARRYON",
+					"item": "BAGGAGE_CARRYON",
+					"media": {
+						"id": "",
+						"link": ""
+					},
+					"metadataToken": "",
+					"originDestinationReference": "Flight1",
+					"properties": [
+						{
+							"UOM": "CM",
+							"type": "Length",
+							"value": "56"
+						},
+						{
+							"UOM": "CM",
+							"type": "Height",
+							"value": "45"
+						},
+						{
+							"UOM": "CM",
+							"type": "Widht",
+							"value": "25"
+						},
+						{
+							"UOM": "IN",
+							"type": "Length",
+							"value": "22"
+						},
+						{
+							"UOM": "IN",
+							"type": "Height",
+							"value": "18"
+						},
+						{
+							"UOM": "IN",
+							"type": "Widht",
+							"value": "10"
+						}
+					],
+					"text": "1 handbag/laptop bag per person Up to 56cm x 45cm x 25cm/22in x 18in x 10in.",
+					"units": ""
+				},
+				{
+					"category": "BAGGAGE_CARRYON",
+					"item": "BAGGAGE_CARRYON",
+					"media": {
+						"id": "",
+						"link": ""
+					},
+					"metadataToken": "",
+					"originDestinationReference": "Flight1",
+					"properties": [
+						{
+							"UOM": "CM",
+							"type": "Length",
+							"value": "40"
+						},
+						{
+							"UOM": "CM",
+							"type": "Height",
+							"value": "30"
+						},
+						{
+							"UOM": "CM",
+							"type": "Widht",
+							"value": "15"
+						},
+						{
+							"UOM": "IN",
+							"type": "Length",
+							"value": "16"
+						},
+						{
+							"UOM": "IN",
+							"type": "Height",
+							"value": "12"
+						},
+						{
+							"UOM": "IN",
+							"type": "Widht",
+							"value": "6"
+						}
+					],
+					"text": "To be placed under the seat in front of you*. Up to 40cm x 30cm x 15cm/16in x 12in x 6in.",
+					"units": ""
+				},
+				{
+					"category": "BAGGAGE_CARRYON",
+					"item": "BAGGAGE_CARRYON",
+					"media": {
+						"id": "",
+						"link": ""
+					},
+					"metadataToken": "",
+					"originDestinationReference": "Flight1",
+					"text": "Plus 1 additional cabin bag per person ",
+					"units": ""
+				},
+				{
+					"category": "BAGGAGE_CARRYON",
+					"item": "BAGGAGE_CARRYON",
+					"media": {
+						"id": "",
+						"link": ""
+					},
+					"metadataToken": "",
+					"originDestinationReference": "Flight1",
+					"text": "You must be able to lift your bag unaided into the overhead locker*. ",
+					"units": ""
+				},
+				{
+					"category": "BAGGAGE_CARRYON",
+					"item": "BAGGAGE_CARRYON",
+					"media": {
+						"id": "",
+						"link": ""
+					},
+					"metadataToken": "",
+					"originDestinationReference": "Flight1",
+					"text": "Allowances for children and infants ",
+					"units": ""
+				},
+				{
+					"category": "BAGGAGE_CARRYON",
+					"item": "BAGGAGE_CARRYON",
+					"media": {
+						"id": "",
+						"link": ""
+					},
+					"metadataToken": "",
+					"originDestinationReference": "Flight1",
+					"text": "In addition to their baggage allowance infants and children, up to age 11, can also take one fully collapsible pushchair (stroller) and one car seat. ",
+					"units": ""
+				},
+				{
+					"category": "BAGGAGE_CARRYON",
+					"item": "BAGGAGE_CARRYON",
+					"media": {
+						"id": "",
+						"link": ""
+					},
+					"metadataToken": "",
+					"originDestinationReference": "Flight1",
+					"text": "Different hand baggage allowances and restrictions may apply on other airlines.  ",
+					"units": ""
+				},
+				{
+					"category": "BAGGAGE_CARRYON",
+					"item": "BAGGAGE_CARRYON",
+					"media": {
+						"id": "",
+						"link": ""
+					},
+					"metadataToken": "",
+					"originDestinationReference": "Flight1",
+					"text": "Please see the operating airline's website for information. ",
+					"units": ""
+				},
+				{
+					"category": "BAGGAGE_CARRYON",
+					"item": "BAGGAGE_CARRYON",
+					"media": {
+						"id": "",
+						"link": ""
+					},
+					"metadataToken": "",
+					"originDestinationReference": "Flight1",
+					"text": "British Airways ",
+					"units": ""
+				},
+				{
+					"category": "BAGGAGE_CHECKED",
+					"item": "BAGGAGE_CHECKED",
+					"media": {
+						"id": "",
+						"link": ""
+					},
+					"metadataToken": "",
+					"originDestinationReference": "Flight1",
+					"text": "For flights on British Airways, there are restrictions on what you can pack, how heavy your bags can be and on the dimensions of your bags. You may be charged for any overweight or extra bags. ",
+					"units": ""
+				},
+				{
+					"category": "BAGGAGE_CHECKED",
+					"item": "BAGGAGE_CHECKED",
+					"media": {
+						"id": "",
+						"link": ""
+					},
+					"metadataToken": "",
+					"originDestinationReference": "Flight1",
+					"text": "Different checked baggage charges and restrictions may apply on other airlines. Please see the operating airline's website for information. ",
+					"units": ""
+				},
+				{
+					"category": "BAGGAGE_CHECKED",
+					"item": "BAGGAGE_CHECKED",
+					"media": {
+						"id": "",
+						"link": ""
+					},
+					"metadataToken": "",
+					"originDestinationReference": "Flight1",
+					"text": "British Airways ",
+					"units": ""
+				},
+				{
+					"category": "BAGGAGE_CHECKED",
+					"item": "BAGGAGE_CHECKED",
+					"media": {
+						"id": "",
+						"link": ""
+					},
+					"metadataToken": "",
+					"originDestinationReference": "Flight1",
+					"text": "Baggage essentials ",
+					"units": ""
+				},
+				{
+					"category": "BAGGAGE_CHECKED",
+					"item": "BAGGAGE_CHECKED",
+					"media": {
+						"id": "",
+						"link": ""
+					},
+					"metadataToken": "",
+					"originDestinationReference": "Flight1",
+					"text": "restrictions on what you can pack ",
+					"units": ""
+				},
+				{
+					"category": "BAGGAGE_CHECKED",
+					"item": "BAGGAGE_CHECKED",
+					"media": {
+						"id": "",
+						"link": ""
+					},
+					"metadataToken": "",
+					"originDestinationReference": "Flight1",
+					"text": "Baggage allowances and charges ",
+					"units": ""
+				}
+			],
+			"listKey": "HANDBAGOD1_CKBAGOD1_CKBAGOD1OFFER2_"
+		}
+	],
+	"externalOrderID": "J2T9WY",
+	"flights": [
+		{
+			"arrival": {
+				"airportCode": "FRA",
+				"airportName": "Frankfurt Airport",
+				"date": "2021-10-07",
+				"terminalName": "2",
+				"time": "17:25"
+			},
+			"baggageAllowance": {
+				"carryOn": [
+					{
+						"chooseType": "many",
+						"options": [
+							{
+								"properties": [
+									{
+										"UOM": "CM",
+										"type": "Length",
+										"value": "40.00"
+									},
+									{
+										"UOM": "CM",
+										"type": "Width",
+										"value": "30.00"
+									},
+									{
+										"UOM": "CM",
+										"type": "Height",
+										"value": "15.00"
+									},
+									{
+										"UOM": "IN",
+										"type": "Length",
+										"value": "16.00"
+									},
+									{
+										"UOM": "IN",
+										"type": "Width",
+										"value": "12.00"
+									},
+									{
+										"UOM": "IN",
+										"type": "Height",
+										"value": "6.00"
+									}
+								],
+								"quantity": 1,
+								"text": "1 briefcase, laptop or handbag"
+							},
+							{
+								"properties": [
+									{
+										"UOM": "CM",
+										"type": "Length",
+										"value": "56.00"
+									},
+									{
+										"UOM": "CM",
+										"type": "Width",
+										"value": "45.00"
+									},
+									{
+										"UOM": "CM",
+										"type": "Height",
+										"value": "25.00"
+									},
+									{
+										"UOM": "IN",
+										"type": "Length",
+										"value": "22.00"
+									},
+									{
+										"UOM": "IN",
+										"type": "Width",
+										"value": "18.00"
+									},
+									{
+										"UOM": "IN",
+										"type": "Height",
+										"value": "10.00"
+									}
+								],
+								"quantity": 1,
+								"text": "1 carry on bag"
+							}
+						],
+						"passengerRefs": "T3 T4 T2"
+					}
+				],
+				"checked": [
+					{
+						"chooseType": "one",
+						"options": [
+							{
+								"properties": [
+									{
+										"UOM": "KG",
+										"type": "Weight",
+										"value": "23"
+									},
+									{
+										"UOM": "LB",
+										"type": "Weight",
+										"value": "51"
+									}
+								],
+								"quantity": 1,
+								"text": "1 checked bag"
+							}
+						],
+						"passengerRefs": "T3 T4 T2"
+					}
+				]
+			},
+			"departure": {
+				"airportCode": "LCY",
+				"airportName": "City Airport (London) Airport",
+				"date": "2021-10-07",
+				"terminalName": "",
+				"time": "14:55"
+			},
+			"duration": "PT01H30M",
+			"key": "Flight1",
+			"segments": [
+				{
+					"ODRef": "",
+					"detail": {
+						"classOfService": {
+							"cabinDesignator": "ECONOMY",
+							"code": "O",
+							"disclosureRefs": [
+								""
+							],
+							"fare": {
+								"basisCode": "OPV2YO/Y",
+								"cabin": "2",
+								"code": "70J",
+								"marketingName": "Euro Traveller",
+								"priceClassName": "Euro Traveller",
+								"standardName": "SemiFlex",
+								"type": "Published"
+							},
+							"fareRules": [
+								{
+									"cancel": "Not Allowed",
+									"change": "For Fee",
+									"passengerRef": "T3 T2",
+									"passengerType": "ADT",
+									"penalties": [
+										{
+											"amounts": [
+												{
+													"amount": 70,
+													"currency": "EUR",
+													"providerAmount": 70,
+													"providerCurrency": "EUR",
+													"remark": ""
+												}
+											],
+											"description": "Time/date changes permitted at any time before each flight departure for a change fee of EUR 70 or an upgrade fee of EUR 70 plus any difference in fare. All sectors may be repriced. Changes subject to availability. Fees apply per ticket",
+											"type": "EXCHANGE"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 70,
+													"currency": "EUR",
+													"providerAmount": 70,
+													"providerCurrency": "EUR",
+													"remark": ""
+												}
+											],
+											"description": "Time/date changes permitted at any time before each flight departure for a change fee of EUR 70 or an upgrade fee of EUR 70 plus any difference in fare. All sectors may be repriced. Changes subject to availability. Fees apply per ticket",
+											"type": "UPGRADE"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": ""
+												}
+											],
+											"description": "There are no refunds except for any government \u0026amp; airport taxes.",
+											"type": "CANCEL"
+										}
+									]
+								},
+								{
+									"cancel": "Not Allowed",
+									"change": "For Fee",
+									"passengerRef": "T4",
+									"passengerType": "CHD",
+									"penalties": [
+										{
+											"amounts": [
+												{
+													"amount": 70,
+													"currency": "EUR",
+													"providerAmount": 70,
+													"providerCurrency": "EUR",
+													"remark": ""
+												}
+											],
+											"description": "Time/date changes permitted at any time before each flight departure for a change fee of EUR 70 or an upgrade fee of EUR 70 plus any difference in fare. All sectors may be repriced. Changes subject to availability. Fees apply per ticket",
+											"type": "EXCHANGE"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 70,
+													"currency": "EUR",
+													"providerAmount": 70,
+													"providerCurrency": "EUR",
+													"remark": ""
+												}
+											],
+											"description": "Time/date changes permitted at any time before each flight departure for a change fee of EUR 70 or an upgrade fee of EUR 70 plus any difference in fare. All sectors may be repriced. Changes subject to availability. Fees apply per ticket",
+											"type": "UPGRADE"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": ""
+												}
+											],
+											"description": "There are no refunds except for any government \u0026amp; airport taxes.",
+											"type": "CANCEL"
+										}
+									]
+								},
+								{
+									"cancel": "Not Allowed",
+									"change": "For Fee",
+									"passengerRef": "T3 T2",
+									"passengerType": "ADT",
+									"penalties": [
+										{
+											"amounts": [
+												{
+													"amount": 70,
+													"currency": "EUR",
+													"providerAmount": 70,
+													"providerCurrency": "EUR",
+													"remark": ""
+												}
+											],
+											"description": "Time/date changes permitted at any time before each flight departure for a change fee of EUR 70.00 or an upgrade fee of EUR 70.00 plus any difference in fare. All sectors may be repriced. Changes subject to availability. Fees apply per ticket",
+											"type": "EXCHANGE"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 70,
+													"currency": "EUR",
+													"providerAmount": 70,
+													"providerCurrency": "EUR",
+													"remark": ""
+												}
+											],
+											"description": "Time/date changes permitted at any time before each flight departure for a change fee of EUR 70.00 or an upgrade fee of EUR 70.00 plus any difference in fare. All sectors may be repriced. Changes subject to availability. Fees apply per ticket",
+											"type": "UPGRADE"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": ""
+												}
+											],
+											"description": "There are no refunds except for any government and airport taxes.",
+											"type": "CANCEL"
+										}
+									]
+								},
+								{
+									"cancel": "Not Allowed",
+									"change": "For Fee",
+									"passengerRef": "T4",
+									"passengerType": "CHD",
+									"penalties": [
+										{
+											"amounts": [
+												{
+													"amount": 70,
+													"currency": "EUR",
+													"providerAmount": 70,
+													"providerCurrency": "EUR",
+													"remark": ""
+												}
+											],
+											"description": "Time/date changes permitted at any time before each flight departure for a change fee of EUR 70.00 or an upgrade fee of EUR 70.00 plus any difference in fare. All sectors may be repriced. Changes subject to availability. Fees apply per ticket",
+											"type": "EXCHANGE"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 70,
+													"currency": "EUR",
+													"providerAmount": 70,
+													"providerCurrency": "EUR",
+													"remark": ""
+												}
+											],
+											"description": "Time/date changes permitted at any time before each flight departure for a change fee of EUR 70.00 or an upgrade fee of EUR 70.00 plus any difference in fare. All sectors may be repriced. Changes subject to availability. Fees apply per ticket",
+											"type": "UPGRADE"
+										},
+										{
+											"amounts": [
+												{
+													"amount": 0,
+													"currency": "EUR",
+													"providerAmount": 0,
+													"providerCurrency": "EUR",
+													"remark": ""
+												}
+											],
+											"description": "There are no refunds except for any government and airport taxes.",
+											"type": "CANCEL"
+										}
+									]
+								}
+							],
+							"generalClassCode": "",
+							"refs": ""
+						},
+						"duration": "PT1H30M",
+						"seatsLeft": "",
+						"segmentType": "HK",
+						"stopQuantity": "0"
+					},
+					"equipment": {
+						"aircraftCode": "E90",
+						"name": "Embraer E190SR"
+					},
+					"flightNumber": "BA8734",
+					"marketingCarrier": {
+						"airlineID": "BA",
+						"flightNumber": "8734",
+						"name": "British Airways"
+					},
+					"operatingCarrier": {
+						"airlineID": "CJ",
+						"flightNumber": "8734",
+						"name": "BA CityFlyer"
+					},
+					"originDestination": {
+						"arrival": {
+							"airportCode": "FRA",
+							"airportName": "Frankfurt Airport",
+							"countryID": "",
+							"date": "2021-10-07",
+							"parentLocation": "",
+							"terminalName": "2",
+							"time": "17:25"
+						},
+						"departure": {
+							"airportCode": "LCY",
+							"airportName": "City Airport (London) Airport",
+							"countryID": "",
+							"date": "2021-10-07",
+							"parentLocation": "",
+							"terminalName": "",
+							"time": "14:55"
+						}
+					},
+					"segmentID": "FS1"
+				}
+			]
+		}
+	],
+	"formOfPayment": "Card",
+	"id": "BP-MJMGOQLCEA",
+	"orderID": "J2T9WY",
+	"passengers": [
+		{
+			"data": {
+				"address": {
+					"cityName": "",
+					"countryCode": "",
+					"postalCode": "",
+					"street": ""
+				},
+				"birthdate": "2001-05-14",
+				"email": "ACCEPT@ACCEPT.COM",
+				"fqtvInfo": {
+					"account": {
+						"number": ""
+					},
+					"airlineID": ""
+				},
+				"gender": "Male",
+				"name": "DEITZ",
+				"phone": "34666123123",
+				"residenceCountryCode": "",
+				"surname": "HOLDER",
+				"title": "MR"
+			},
+			"document": {
+				"birthCountry": "",
+				"documentID": "115233246A",
+				"documentType": "PP",
+				"expirationDate": "2025-01-16",
+				"issueDate": "",
+				"residenceCountry": ""
+			},
+			"infantReference": "",
+			"passengerType": "ADT",
+			"travelerReference": "T3"
+		},
+		{
+			"data": {
+				"address": {
+					"cityName": "",
+					"countryCode": "",
+					"postalCode": "",
+					"street": ""
+				},
+				"birthdate": "2011-06-16",
+				"email": "ACCEPT@ACCEPT.COM",
+				"fqtvInfo": {
+					"account": {
+						"number": ""
+					},
+					"airlineID": ""
+				},
+				"gender": "Female",
+				"name": "DEITZ",
+				"phone": "34666123123",
+				"residenceCountryCode": "",
+				"surname": "HOLDER",
+				"title": "MRS"
+			},
+			"document": {
+				"birthCountry": "",
+				"documentID": "115133226A",
+				"documentType": "PP",
+				"expirationDate": "2022-04-09",
+				"issueDate": "",
+				"residenceCountry": ""
+			},
+			"infantReference": "",
+			"passengerType": "CHD",
+			"travelerReference": "T4"
+		},
+		{
+			"data": {
+				"address": {
+					"cityName": "Saint-Petersburg",
+					"countryCode": "RU",
+					"postalCode": "197373",
+					"street": "Test"
+				},
+				"birthdate": "2001-10-09",
+				"email": "ACCEPT@ACCEPT.COM",
+				"fqtvInfo": {
+					"account": {
+						"number": ""
+					},
+					"airlineID": ""
+				},
+				"gender": "Female",
+				"name": "QUINN",
+				"phone": "34666123123",
+				"residenceCountryCode": "",
+				"surname": "HOLDER",
+				"title": "MRS"
+			},
+			"document": {
+				"birthCountry": "",
+				"documentID": "115233245A",
+				"documentType": "PP",
+				"expirationDate": "2024-06-03",
+				"issueDate": "",
+				"residenceCountry": ""
+			},
+			"infantReference": "",
+			"passengerType": "ADT",
+			"travelerReference": "T2"
+		}
+	],
+	"pnr": "J2T9WY",
+	"price": {
+		"consumer": {
+			"base": 78,
+			"breakdown": [
+				{
+					"base": 25.99999999999999,
+					"offerItemID": "",
+					"passengerRefs": "T3",
+					"passengerType": "ADT",
+					"surcharge": 0,
+					"tax": {
+						"breakdown": [
+							{
+								"code": "GB",
+								"currency": "EUR",
+								"description": "",
+								"total": 15.18
+							},
+							{
+								"code": "UB",
+								"currency": "EUR",
+								"description": "",
+								"total": 44.05
+							}
+						],
+						"total": 59.23
+					}
+				},
+				{
+					"base": 26,
+					"offerItemID": "",
+					"passengerRefs": "T4",
+					"passengerType": "CHD",
+					"surcharge": 0,
+					"tax": {
+						"breakdown": [
+							{
+								"code": "UB",
+								"currency": "EUR",
+								"description": "",
+								"total": 44.05
+							}
+						],
+						"total": 44.05
+					}
+				},
+				{
+					"base": 25.99999999999999,
+					"offerItemID": "",
+					"passengerRefs": "T2",
+					"passengerType": "ADT",
+					"surcharge": 0,
+					"tax": {
+						"breakdown": [
+							{
+								"code": "GB",
+								"currency": "EUR",
+								"description": "",
+								"total": 15.18
+							},
+							{
+								"code": "UB",
+								"currency": "EUR",
+								"description": "",
+								"total": 44.05
+							}
+						],
+						"total": 59.23
+					}
+				}
+			],
+			"currency": "EUR",
+			"tax": {
+				"breakdown": [
+					{
+						"code": "GB",
+						"currency": "EUR",
+						"description": "",
+						"total": 15.18
+					},
+					{
+						"code": "UB",
+						"currency": "EUR",
+						"description": "",
+						"total": 44.05
+					},
+					{
+						"code": "UB",
+						"currency": "EUR",
+						"description": "",
+						"total": 44.05
+					},
+					{
+						"code": "GB",
+						"currency": "EUR",
+						"description": "",
+						"total": 15.18
+					},
+					{
+						"code": "UB",
+						"currency": "EUR",
+						"description": "",
+						"total": 44.05
+					}
+				],
+				"total": 162.51
+			},
+			"total": 240.51
+		},
+		"provider": {
+			"base": 78,
+			"breakdown": [
+				{
+					"base": 26,
+					"offerItemID": "",
+					"passengerRefs": "T3",
+					"passengerType": "ADT",
+					"surcharge": 0,
+					"tax": {
+						"breakdown": [
+							{
+								"code": "GB",
+								"currency": "EUR",
+								"description": "",
+								"total": 15.18
+							},
+							{
+								"code": "UB",
+								"currency": "EUR",
+								"description": "",
+								"total": 44.05
+							}
+						],
+						"total": 59.23
+					}
+				},
+				{
+					"base": 26,
+					"offerItemID": "",
+					"passengerRefs": "T4",
+					"passengerType": "CHD",
+					"surcharge": 0,
+					"tax": {
+						"breakdown": [
+							{
+								"code": "UB",
+								"currency": "EUR",
+								"description": "",
+								"total": 44.05
+							}
+						],
+						"total": 44.05
+					}
+				},
+				{
+					"base": 26,
+					"offerItemID": "",
+					"passengerRefs": "T2",
+					"passengerType": "ADT",
+					"surcharge": 0,
+					"tax": {
+						"breakdown": [
+							{
+								"code": "GB",
+								"currency": "EUR",
+								"description": "",
+								"total": 15.18
+							},
+							{
+								"code": "UB",
+								"currency": "EUR",
+								"description": "",
+								"total": 44.05
+							}
+						],
+						"total": 59.23
+					}
+				}
+			],
+			"currency": "EUR",
+			"tax": {
+				"breakdown": [
+					{
+						"code": "GB",
+						"currency": "EUR",
+						"description": "",
+						"total": 15.18
+					},
+					{
+						"code": "UB",
+						"currency": "EUR",
+						"description": "",
+						"total": 44.05
+					},
+					{
+						"code": "UB",
+						"currency": "EUR",
+						"description": "",
+						"total": 44.05
+					},
+					{
+						"code": "GB",
+						"currency": "EUR",
+						"description": "",
+						"total": 15.18
+					},
+					{
+						"code": "UB",
+						"currency": "EUR",
+						"description": "",
+						"total": 44.05
+					}
+				],
+				"total": 162.51
+			},
+			"total": 240.51
+		}
+	},
+	"readyToTicketIssue": true,
+	"services": [
+		{
+			"bookingInstructions": {
+				"mandatoryText": "",
+				"pattern": "",
+				"placeHolder": "",
+				"type": ""
+			},
+			"maximumQuantity": 1,
+			"minimumQuantity": 1,
+			"name": "Checked Baggage",
+			"objectKey": "SRV-125-2119952739-FS1-T3",
+			"price": {
+				"consumer": {
+					"base": 0,
+					"currency": "EUR",
+					"tax": {
+						"total": 0
+					},
+					"total": 0
+				},
+				"provider": {
+					"base": 0,
+					"currency": "",
+					"tax": {
+						"total": 0
+					},
+					"total": 0
+				}
+			},
+			"ref": "Service",
+			"removable": false,
+			"segmentReferences": "FS1",
+			"serviceID": "SRV-125-2119952739-FS1-T3",
+			"travelerReferences": "T3"
+		},
+		{
+			"bookingInstructions": {
+				"mandatoryText": "",
+				"pattern": "",
+				"placeHolder": "",
+				"type": ""
+			},
+			"maximumQuantity": 1,
+			"minimumQuantity": 1,
+			"name": "Checked Baggage",
+			"objectKey": "SRV-125-2119952740-FS1-T4",
+			"price": {
+				"consumer": {
+					"base": 0,
+					"currency": "EUR",
+					"tax": {
+						"total": 0
+					},
+					"total": 0
+				},
+				"provider": {
+					"base": 0,
+					"currency": "",
+					"tax": {
+						"total": 0
+					},
+					"total": 0
+				}
+			},
+			"ref": "Service",
+			"removable": false,
+			"segmentReferences": "FS1",
+			"serviceID": "SRV-125-2119952740-FS1-T4",
+			"travelerReferences": "T4"
+		},
+		{
+			"bookingInstructions": {
+				"mandatoryText": "",
+				"pattern": "",
+				"placeHolder": "",
+				"type": ""
+			},
+			"maximumQuantity": 1,
+			"minimumQuantity": 1,
+			"name": "Checked Baggage",
+			"objectKey": "SRV-125-2119952741-FS1-T2",
+			"price": {
+				"consumer": {
+					"base": 0,
+					"currency": "EUR",
+					"tax": {
+						"total": 0
+					},
+					"total": 0
+				},
+				"provider": {
+					"base": 0,
+					"currency": "",
+					"tax": {
+						"total": 0
+					},
+					"total": 0
+				}
+			},
+			"ref": "Service",
+			"removable": false,
+			"segmentReferences": "FS1",
+			"serviceID": "SRV-125-2119952741-FS1-T2",
+			"travelerReferences": "T2"
+		}
+	],
+	"status": "Ticketed",
+	"tickets": [
+		{
+			"coupons": [
+				{
+					"fareBasisCode": "OPV2YO/7501",
+					"number": "1",
+					"segment": {
+						"arrival": {
+							"airportCode": "FRA",
+							"airportName": "",
+							"date": "",
+							"terminalName": "",
+							"time": ""
+						},
+						"arrivalDateTime": {
+							"date": "",
+							"time": ""
+						},
+						"departure": {
+							"airportCode": "LCY",
+							"airportName": "City Airport (London)",
+							"date": "2021-10-07",
+							"terminalName": "",
+							"time": "14:55"
+						},
+						"departureDateTime": {
+							"date": "",
+							"time": ""
+						},
+						"equipment": {
+							"aircraftCode": "",
+							"name": ""
+						},
+						"marketingCarrier": {
+							"airlineID": "BA",
+							"flightNumber": "8734",
+							"name": "BRITISH AIRWAYS P.L.C."
+						},
+						"status": ""
+					},
+					"status": "OPE",
+					"statusDefinition": "Open"
+				}
+			],
+			"dateOfIssue": "2021-09-02",
+			"numberOfBooklets": 1,
+			"passengerRef": "T3",
+			"price": {
+				"consumer": {
+					"base": 25.99999999999999,
+					"currency": "EUR",
+					"tax": {
+						"breakdown": [
+							{
+								"code": "GB",
+								"currency": "EUR",
+								"description": "",
+								"total": 15.18
+							},
+							{
+								"code": "UB",
+								"currency": "EUR",
+								"description": "",
+								"total": 44.05
+							}
+						],
+						"total": 59.23
+					},
+					"total": 85.22999999999999
+				},
+				"provider": {
+					"base": 26,
+					"currency": "EUR",
+					"tax": {
+						"breakdown": [
+							{
+								"code": "GB",
+								"currency": "EUR",
+								"description": "",
+								"total": 15.18
+							},
+							{
+								"code": "UB",
+								"currency": "EUR",
+								"description": "",
+								"total": 44.05
+							}
+						],
+						"total": 59.23
+					},
+					"total": 85.22999999999999
+				}
+			},
+			"ticketNumber": "125-2119952739",
+			"timeOfIssue": "",
+			"typeCode": "T",
+			"typeCodeDefinition": "Ticket"
+		},
+		{
+			"coupons": [
+				{
+					"fareBasisCode": "OPV2YO/CH",
+					"number": "1",
+					"segment": {
+						"arrival": {
+							"airportCode": "FRA",
+							"airportName": "",
+							"date": "",
+							"terminalName": "",
+							"time": ""
+						},
+						"arrivalDateTime": {
+							"date": "",
+							"time": ""
+						},
+						"departure": {
+							"airportCode": "LCY",
+							"airportName": "City Airport (London)",
+							"date": "2021-10-07",
+							"terminalName": "",
+							"time": "14:55"
+						},
+						"departureDateTime": {
+							"date": "",
+							"time": ""
+						},
+						"equipment": {
+							"aircraftCode": "",
+							"name": ""
+						},
+						"marketingCarrier": {
+							"airlineID": "BA",
+							"flightNumber": "8734",
+							"name": "BRITISH AIRWAYS P.L.C."
+						},
+						"status": ""
+					},
+					"status": "OPE",
+					"statusDefinition": "Open"
+				}
+			],
+			"dateOfIssue": "2021-09-02",
+			"numberOfBooklets": 1,
+			"passengerRef": "T4",
+			"price": {
+				"consumer": {
+					"base": 26,
+					"currency": "EUR",
+					"tax": {
+						"breakdown": [
+							{
+								"code": "UB",
+								"currency": "EUR",
+								"description": "",
+								"total": 44.05
+							}
+						],
+						"total": 44.05
+					},
+					"total": 70.05
+				},
+				"provider": {
+					"base": 26,
+					"currency": "EUR",
+					"tax": {
+						"breakdown": [
+							{
+								"code": "UB",
+								"currency": "EUR",
+								"description": "",
+								"total": 44.05
+							}
+						],
+						"total": 44.05
+					},
+					"total": 70.05
+				}
+			},
+			"ticketNumber": "125-2119952740",
+			"timeOfIssue": "",
+			"typeCode": "T",
+			"typeCodeDefinition": "Ticket"
+		},
+		{
+			"coupons": [
+				{
+					"fareBasisCode": "OPV2YO/7501",
+					"number": "1",
+					"segment": {
+						"arrival": {
+							"airportCode": "FRA",
+							"airportName": "",
+							"date": "",
+							"terminalName": "",
+							"time": ""
+						},
+						"arrivalDateTime": {
+							"date": "",
+							"time": ""
+						},
+						"departure": {
+							"airportCode": "LCY",
+							"airportName": "City Airport (London)",
+							"date": "2021-10-07",
+							"terminalName": "",
+							"time": "14:55"
+						},
+						"departureDateTime": {
+							"date": "",
+							"time": ""
+						},
+						"equipment": {
+							"aircraftCode": "",
+							"name": ""
+						},
+						"marketingCarrier": {
+							"airlineID": "BA",
+							"flightNumber": "8734",
+							"name": "BRITISH AIRWAYS P.L.C."
+						},
+						"status": ""
+					},
+					"status": "OPE",
+					"statusDefinition": "Open"
+				}
+			],
+			"dateOfIssue": "2021-09-02",
+			"numberOfBooklets": 1,
+			"passengerRef": "T2",
+			"price": {
+				"consumer": {
+					"base": 25.99999999999999,
+					"currency": "EUR",
+					"tax": {
+						"breakdown": [
+							{
+								"code": "GB",
+								"currency": "EUR",
+								"description": "",
+								"total": 15.18
+							},
+							{
+								"code": "UB",
+								"currency": "EUR",
+								"description": "",
+								"total": 44.05
+							}
+						],
+						"total": 59.23
+					},
+					"total": 85.22999999999999
+				},
+				"provider": {
+					"base": 26,
+					"currency": "EUR",
+					"tax": {
+						"breakdown": [
+							{
+								"code": "GB",
+								"currency": "EUR",
+								"description": "",
+								"total": 15.18
+							},
+							{
+								"code": "UB",
+								"currency": "EUR",
+								"description": "",
+								"total": 44.05
+							}
+						],
+						"total": 59.23
+					},
+					"total": 85.22999999999999
+				}
+			},
+			"ticketNumber": "125-2119952741",
+			"timeOfIssue": "",
+			"typeCode": "T",
+			"typeCodeDefinition": "Ticket"
+		}
+	]
+}

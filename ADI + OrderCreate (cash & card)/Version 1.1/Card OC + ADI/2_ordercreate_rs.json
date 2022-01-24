@@ -1,0 +1,487 @@
+{
+	"agency": "airgateway",
+	"agencyData": {
+		"countryCode": "",
+		"iataCode": "00000136"
+	},
+	"allowedRequests": {
+		"postTicketing": {
+			"OrderCancel": true,
+			"OrderReshop": true,
+			"OrderReshopRouteChange": false,
+			"OrderSplit": true,
+			"OrderVoid": false,
+			"SeatAvailability": true,
+			"ServiceList": true
+		},
+		"preTicketing": {
+			"OrderCancel": true,
+			"OrderReprice": true,
+			"OrderSplit": true,
+			"SeatAvailability": true,
+			"ServiceList": true,
+			"TicketIssue": true
+		}
+	},
+	"approvalStatus": "",
+	"bookingReference": {
+		"airlineID": "BA",
+		"id": "QPQU74",
+		"otherID": "BA"
+	},
+	"disclosures": [
+		{
+			"descriptions": [
+				{
+					"category": "BAGGAGE_CARRYON",
+					"item": "BAGGAGE_CARRYON",
+					"media": {},
+					"originDestinationReference": "Flight1",
+					"properties": [
+						{
+							"UOM": "CM",
+							"type": "Length",
+							"value": "56"
+						},
+						{
+							"UOM": "CM",
+							"type": "Height",
+							"value": "45"
+						},
+						{
+							"UOM": "CM",
+							"type": "Widht",
+							"value": "25"
+						},
+						{
+							"UOM": "IN",
+							"type": "Length",
+							"value": "22"
+						},
+						{
+							"UOM": "IN",
+							"type": "Height",
+							"value": "18"
+						},
+						{
+							"UOM": "IN",
+							"type": "Widht",
+							"value": "10"
+						}
+					],
+					"text": "1 handbag/laptop bag per person Up to 56cm x 45cm x 25cm/22in x 18in x 10in."
+				},
+				{
+					"category": "BAGGAGE_CARRYON",
+					"item": "BAGGAGE_CARRYON",
+					"media": {},
+					"originDestinationReference": "Flight1",
+					"properties": [
+						{
+							"UOM": "CM",
+							"type": "Length",
+							"value": "40"
+						},
+						{
+							"UOM": "CM",
+							"type": "Height",
+							"value": "30"
+						},
+						{
+							"UOM": "CM",
+							"type": "Widht",
+							"value": "15"
+						},
+						{
+							"UOM": "IN",
+							"type": "Length",
+							"value": "16"
+						},
+						{
+							"UOM": "IN",
+							"type": "Height",
+							"value": "12"
+						},
+						{
+							"UOM": "IN",
+							"type": "Widht",
+							"value": "6"
+						}
+					],
+					"text": "To be placed under the seat in front of you*. Up to 40cm x 30cm x 15cm/16in x 12in x 6in."
+				},
+				{
+					"category": "BAGGAGE_CARRYON",
+					"item": "BAGGAGE_CARRYON",
+					"media": {},
+					"originDestinationReference": "Flight1",
+					"text": "Plus 1 additional cabin bag per person "
+				},
+				{
+					"category": "BAGGAGE_CARRYON",
+					"item": "BAGGAGE_CARRYON",
+					"media": {},
+					"originDestinationReference": "Flight1",
+					"text": "You must be able to lift your bag unaided into the overhead locker*. "
+				},
+				{
+					"category": "BAGGAGE_CHECKED",
+					"item": "BAGGAGE_CHECKED",
+					"media": {},
+					"originDestinationReference": "Flight1",
+					"text": "You have selected a hand baggage only fare "
+				},
+				{
+					"category": "BAGGAGE_CHECKED",
+					"item": "BAGGAGE_CHECKED",
+					"media": {},
+					"originDestinationReference": "Flight1",
+					"text": "No checked baggage allowance for any passengers "
+				},
+				{
+					"category": "BAGGAGE_CHECKED",
+					"item": "BAGGAGE_CHECKED",
+					"media": {},
+					"originDestinationReference": "Flight1",
+					"text": "Buy checked baggage allowances later "
+				},
+				{
+					"category": "BAGGAGE_CHECKED",
+					"item": "BAGGAGE_CHECKED",
+					"media": {},
+					"originDestinationReference": "Flight1",
+					"text": "Checked baggage allowances can be bought for an additional cost in Manage My Booking at any time after you have booked your flight(s). "
+				},
+				{
+					"category": "BAGGAGE_CHECKED",
+					"item": "BAGGAGE_CHECKED",
+					"media": {},
+					"originDestinationReference": "Flight1",
+					"text": "Hand baggage allowance "
+				},
+				{
+					"category": "BAGGAGE_CHECKED",
+					"item": "BAGGAGE_CHECKED",
+					"media": {},
+					"originDestinationReference": "Flight1",
+					"text": "restrictions on what you can pack "
+				},
+				{
+					"category": "BAGGAGE_CHECKED",
+					"item": "BAGGAGE_CHECKED",
+					"media": {},
+					"originDestinationReference": "Flight1",
+					"text": "Extra baggage allowance charges "
+				},
+				{
+					"category": "BAGGAGE_CHECKED",
+					"item": "BAGGAGE_CHECKED",
+					"media": {},
+					"originDestinationReference": "Flight1",
+					"text": "There are restrictions on what you may pack and on the dimensions of your bags. "
+				},
+				{
+					"category": "BAGGAGE_CHECKED",
+					"item": "BAGGAGE_CHECKED",
+					"media": {},
+					"originDestinationReference": "Flight1",
+					"text": "You may be charged for extra or overweight bags.  "
+				},
+				{
+					"category": "BAGGAGE_CHECKED",
+					"item": "BAGGAGE_CHECKED",
+					"media": {},
+					"originDestinationReference": "Flight1",
+					"text": "Baggage essentials "
+				},
+				{
+					"category": "BAGGAGE_CHECKED",
+					"item": "BAGGAGE_CHECKED",
+					"media": {},
+					"originDestinationReference": "Flight1",
+					"text": "Baggage allowances and charges "
+				}
+			],
+			"listKey": "HANDBAGOD1_CKBAGOD1_CKBAGOD1OFFER2_"
+		},
+		{
+			"descriptions": [
+				{
+					"category": "BAGGAGE_CARRYON",
+					"item": "BAGGAGE_CARRYON",
+					"text": "1 handbag/laptop bag (40cm x 30cm x 15cm/16in x 12in x 6in) plus one additional cabin bag (56cm x 45cm x 25cm/22in x 18in x 10in)"
+				},
+				{
+					"category": "CHECKIN",
+					"item": "CHECKIN",
+					"text": "Check in online or on your mobile"
+				},
+				{
+					"category": "SERVICE",
+					"item": "LOCATED_AIRPORTS",
+					"text": "Convenient centrally located airports"
+				},
+				{
+					"category": "OTHER",
+					"item": "OTHER",
+					"text": "The reliability and reassurance of flying British Airways"
+				},
+				{
+					"category": "MILES",
+					"item": "MILES",
+					"text": "This fare will earn Executive Club Tier Points"
+				}
+			],
+			"listKey": "DISCLOSURE1"
+		}
+	],
+	"externalOrderID": "QPQU74",
+	"flights": [
+		{
+			"arrival": {
+				"airportCode": "FRA",
+				"airportName": "Frankfurt Airport",
+				"countryID": "",
+				"date": "2022-01-29",
+				"parentLocation": "",
+				"terminalName": "2",
+				"time": "16:40"
+			},
+			"departure": {
+				"airportCode": "LHR",
+				"airportName": "Heathrow (London) Airport",
+				"countryID": "",
+				"date": "2022-01-29",
+				"parentLocation": "",
+				"terminalName": "5",
+				"time": "13:55"
+			},
+			"flightDuration": "1h45m",
+			"flightKey": "Flight1",
+			"flightSegments": [
+				{
+					"equipment": {
+						"aircraftCode": "319",
+						"name": "Airbus A319 jet"
+					},
+					"flightDetail": {
+						"classOfService": {
+							"cabinDesignator": "ECONOMY",
+							"code": "O",
+							"disclosureRefs": [
+								""
+							],
+							"disclosures": {
+								"ADT": {
+									"fareRules": {
+										"Change": "For Fee",
+										"penalties": [
+											{
+												"amounts": [
+													{
+														"amount": 0,
+														"currency": "SEK",
+														"providerAmount": 0,
+														"providerCurrency": "EUR",
+														"remark": ""
+													}
+												],
+												"type": "EXCHANGE"
+											},
+											{
+												"amounts": [
+													{
+														"amount": 0,
+														"currency": "SEK",
+														"providerAmount": 0,
+														"providerCurrency": "EUR",
+														"remark": ""
+													}
+												],
+												"type": "EXCHANGE"
+											},
+											{
+												"amounts": [
+													{
+														"amount": 0,
+														"currency": "SEK",
+														"providerAmount": 0,
+														"providerCurrency": "EUR",
+														"remark": ""
+													}
+												],
+												"type": "EXCHANGE"
+											},
+											{
+												"amounts": [
+													{
+														"amount": 0,
+														"currency": "SEK",
+														"providerAmount": 0,
+														"providerCurrency": "EUR",
+														"remark": ""
+													}
+												],
+												"type": "CANCEL"
+											},
+											{
+												"amounts": [
+													{
+														"amount": 0,
+														"currency": "SEK",
+														"providerAmount": 0,
+														"providerCurrency": "EUR",
+														"remark": ""
+													}
+												],
+												"type": "CANCEL"
+											},
+											{
+												"amounts": [
+													{
+														"amount": 0,
+														"currency": "SEK",
+														"providerAmount": 0,
+														"providerCurrency": "EUR",
+														"remark": ""
+													}
+												],
+												"type": "CANCEL"
+											}
+										]
+									}
+								}
+							},
+							"fareCabin": "I",
+							"fareStandardName": "SemiFlex",
+							"marketingName": "Basic",
+							"refs": ""
+						},
+						"fareCabin": "I",
+						"fareCode": "70J",
+						"fareStandardName": "SemiFlex",
+						"fareType": "Published",
+						"flightDuration": "PT1H45M",
+						"flightSegmentType": "HK",
+						"stopQuantity": "0"
+					},
+					"flightNumber": "BA0908",
+					"marketingCarrier": {
+						"airlineID": "BA",
+						"flightNumber": "0908",
+						"name": "British Airways"
+					},
+					"operatingCarrier": {
+						"airlineID": "BA",
+						"disclosures": [
+							{
+								"descriptions": [
+									{
+										"text": "BA"
+									}
+								],
+								"listKey": ""
+							}
+						],
+						"flightNumber": "0908",
+						"name": "British Airways"
+					},
+					"originDestination": {
+						"arrival": {
+							"airportCode": "FRA",
+							"airportName": "Frankfurt Airport",
+							"countryID": "",
+							"date": "2022-01-29",
+							"parentLocation": "",
+							"terminalName": "2",
+							"time": "16:40"
+						},
+						"departure": {
+							"airportCode": "LHR",
+							"airportName": "Heathrow (London) Airport",
+							"countryID": "",
+							"date": "2022-01-29",
+							"parentLocation": "",
+							"terminalName": "5",
+							"time": "13:55"
+						}
+					},
+					"segmentID": "FS1"
+				}
+			]
+		}
+	],
+	"formOfPayment": "None",
+	"id": "BP-WCVWFEQXA6",
+	"metas": {
+		"test": "test2"
+	},
+	"orderID": "QPQU74",
+	"passengers": [
+		{
+			"document": {
+				"documentID": "115233245A",
+				"documentType": "PP",
+				"expirationDate": "2025-07-11"
+			},
+			"fareBasisCodes": {
+				"FS1": ""
+			},
+			"infantReference": "",
+			"passenger": {
+				"address": {
+					"cityName": "Saint-Petersburg",
+					"countryCode": "RU",
+					"postalCode": "197373",
+					"street": "Test"
+				},
+				"birthdate": "2002-02-08",
+				"contactInfoRef": "ContactInfo-T2",
+				"emailContact": "SMITH@AIRGATEWAY.NET",
+				"fqtvInfo": {
+					"account": {
+						"number": "61456"
+					},
+					"airlineID": "IZ"
+				},
+				"gender": "Male",
+				"nameGiven": "ANGEL",
+				"nameTitle": "MR",
+				"passengerType": "ADT",
+				"phone": {
+					"areaCode": "",
+					"countryCode": "",
+					"number": "34666123123"
+				},
+				"surname": "LAWLESS"
+			},
+			"travelerReference": "T2"
+		}
+	],
+	"paymentTimeLimit": "2022-01-05T23:59:00Z",
+	"pnr": "QPQU74",
+	"price": {
+		"baseAmount": 122.97,
+		"currency": "SEK",
+		"providerBaseAmount": 12,
+		"providerCurrency": "EUR",
+		"providerTotalPrice": 53.79,
+		"providerTotalTaxes": 41.79,
+		"taxes": [
+			{
+				"amount": 15.49,
+				"currency": "EUR",
+				"taxCode": "GB"
+			},
+			{
+				"amount": 26.3,
+				"currency": "EUR",
+				"taxCode": "UB"
+			}
+		],
+		"totalPrice": 551.22,
+		"totalTaxes": 428.25
+	},
+	"readyToTicketIssue": true,
+	"status": "Pending"
+}

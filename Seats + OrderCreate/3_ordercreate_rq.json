@@ -1,0 +1,192 @@
+{
+	"corporateID": "",
+	"passengers": [
+		{
+			"data": {
+				"address": {
+					"cityName": "Saint-Petersburg",
+					"countryCode": "RU",
+					"postalCode": "197373",
+					"street": "Test"
+				},
+				"birthdate": "2001-06-28",
+				"email": "smith@airgateway.net",
+				"fqtvInfo": {
+					"account": {
+						"number": ""
+					},
+					"airlineID": "BA"
+				},
+				"gender": "Male",
+				"name": "Hayley",
+				"phone": "+34666123123",
+				"residenceCountryCode": "ES",
+				"surname": "Severson"
+			},
+			"document": {
+				"documentID": "115233245A",
+				"documentType": "PP",
+				"expirationDate": "2023-06-16"
+			},
+			"passengerType": "ADT",
+			"seats": [
+				{
+					"location": {
+						"column": "A",
+						"row": 10
+					},
+					"segment": "BA0916"
+				},
+				{
+					"location": {
+						"column": "B",
+						"row": 13
+					},
+					"segment": "BA0901"
+				}
+			],
+			"travelerReference": "ADT0"
+		},
+		{
+			"data": {
+				"address": {
+					"cityName": "",
+					"countryCode": "",
+					"postalCode": "",
+					"street": ""
+				},
+				"birthdate": "2001-02-08",
+				"email": "",
+				"fqtvInfo": {
+					"account": {
+						"number": ""
+					},
+					"airlineID": "BA"
+				},
+				"gender": "Female",
+				"name": "Andreas",
+				"phone": "",
+				"residenceCountryCode": "RU",
+				"surname": "Myers"
+			},
+			"document": {
+				"documentID": "115233246A",
+				"documentType": "PP",
+				"expirationDate": "2023-09-12"
+			},
+			"passengerType": "ADT",
+			"seats": [
+				{
+					"location": {
+						"column": "B",
+						"row": 10
+					},
+					"segment": "BA0916"
+				},
+				{
+					"location": {
+						"column": "C",
+						"row": 13
+					},
+					"segment": "BA0901"
+				}
+			],
+			"travelerReference": "ADT0"
+		},
+		{
+			"data": {
+				"address": {
+					"cityName": "",
+					"countryCode": "",
+					"postalCode": "",
+					"street": ""
+				},
+				"birthdate": "2011-06-11",
+				"email": "",
+				"fqtvInfo": {
+					"account": {
+						"number": ""
+					},
+					"airlineID": "BA"
+				},
+				"gender": "Female",
+				"name": "Jamie",
+				"phone": "",
+				"residenceCountryCode": "ES",
+				"surname": "Bateman"
+			},
+			"document": {
+				"documentID": "115233266A",
+				"documentType": "PP",
+				"expirationDate": "2023-08-24"
+			},
+			"passengerType": "CHD",
+			"seats": [
+				{
+					"location": {
+						"column": "C",
+						"row": 10
+					},
+					"segment": "BA0916"
+				},
+				{
+					"location": {
+						"column": "A",
+						"row": 13
+					},
+					"segment": "BA0901"
+				}
+			],
+			"travelerReference": "CHD0"
+		},
+		{
+			"data": {
+				"address": {
+					"cityName": "",
+					"countryCode": "",
+					"postalCode": "",
+					"street": ""
+				},
+				"birthdate": "2020-01-10",
+				"email": "",
+				"fqtvInfo": {
+					"account": {
+						"number": ""
+					},
+					"airlineID": "BA"
+				},
+				"gender": "Male",
+				"name": "Bethany",
+				"phone": "",
+				"residenceCountryCode": "ES",
+				"surname": "Sweeney"
+			},
+			"document": {
+				"documentID": "113233266A",
+				"documentType": "PP",
+				"expirationDate": "2023-07-05"
+			},
+			"passengerType": "INF",
+			"travelerReference": "INF0"
+		}
+	],
+	"payment": {
+		"cardCode": "VI",
+		"cardHolderEmail": "accept@accept.com",
+		"cardHolderName": "JOHN",
+		"cardHolderSurname": "DOE",
+		"cardHolderTitle": "MR",
+		"cardNumber": "****************",
+		"cardType": "CC",
+		"cityName": "MAD",
+		"countryCode": "ES",
+		"expiration": "0523",
+		"method": "card",
+		"phone": "+34646666621",
+		"postalCode": "28900",
+		"seriesCode": "***",
+		"stateProv": "28",
+		"street1": "Ibiza 21"
+	},
+	"shoppingResponseID": "C8RW3S8BUFRIDDER5BMMLVX6U756GAC25PGYCH94BIMTHNPGF0A9BT0EX2Q2J0IN"
+}

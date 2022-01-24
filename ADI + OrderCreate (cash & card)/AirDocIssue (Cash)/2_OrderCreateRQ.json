@@ -1,0 +1,66 @@
+{
+	"corporateID": "",
+	"passengers": [
+		{
+			"data": {
+				"address": {
+					"cityName": "Saint-Petersburg",
+					"countryCode": "RU",
+					"postalCode": "197373",
+					"street": "Test"
+				},
+				"birthdate": "2001-02-18",
+				"email": "smith@airgateway.net",
+				"fqtvInfo": {
+					"account": {
+						"number": ""
+					},
+					"airlineID": "AF"
+				},
+				"gender": "Male",
+				"name": "Carly",
+				"phone": "+34666123123",
+				"residenceCountryCode": "RU",
+				"surname": "Mccord"
+			},
+			"document": {
+				"documentID": "115233245A",
+				"documentType": "PP",
+				"expirationDate": "2022-05-26"
+			},
+			"passengerType": "ADT",
+			"travelerReference": "PAX1"
+		},
+		{
+			"data": {
+				"address": {
+					"cityName": "",
+					"countryCode": "",
+					"postalCode": "",
+					"street": ""
+				},
+				"birthdate": "2011-09-04",
+				"email": "",
+				"fqtvInfo": {
+					"account": {
+						"number": ""
+					},
+					"airlineID": "AF"
+				},
+				"gender": "Male",
+				"name": "Evelyn",
+				"phone": "",
+				"residenceCountryCode": "ES",
+				"surname": "Schiebel"
+			},
+			"document": {
+				"documentID": "115233236A",
+				"documentType": "PP",
+				"expirationDate": "2023-04-05"
+			},
+			"passengerType": "CHD",
+			"travelerReference": "PAX2"
+		}
+	],
+	"shoppingResponseID": "N26LYSFQRBSXIMJ7QYIWT44UYL37N6ROQMQMXLBXOJFOSNUF30YKFJT6OVAACBEZ"
+}

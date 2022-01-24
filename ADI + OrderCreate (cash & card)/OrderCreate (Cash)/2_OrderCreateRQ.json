@@ -1,0 +1,39 @@
+{
+	"corporateID": "",
+	"passengers": [
+		{
+			"data": {
+				"address": {
+					"cityName": "Saint-Petersburg",
+					"countryCode": "RU",
+					"postalCode": "197373",
+					"street": "Test"
+				},
+				"birthdate": "2001-10-03",
+				"email": "smith@airgateway.net",
+				"fqtvInfo": {
+					"account": {
+						"number": ""
+					},
+					"airlineID": "IB"
+				},
+				"gender": "Male",
+				"name": "Amrinder",
+				"phone": "+34666123123",
+				"residenceCountryCode": "ES",
+				"surname": "Ortiz"
+			},
+			"document": {
+				"documentID": "115233245A",
+				"documentType": "PP",
+				"expirationDate": "2025-04-12"
+			},
+			"passengerType": "ADT",
+			"travelerReference": "ADT0"
+		}
+	],
+	"payment": {
+		"method": "agencyCash"
+	},
+	"shoppingResponseID": "OZKHMY1SQO406C6UIKP8IULTZ6C4P8DQWXJEDXZ54IQQH2Y8D4DEOZS81URNA6FP"
+}
